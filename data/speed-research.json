@@ -1,0 +1,1772 @@
+{
+  "checkedDate": "2026-10-03",
+  "ownTest": false,
+  "method": "按品牌检索公开报告，分别记录采样日期、发布者、条件和局限；转载或同批图不当作独立复测。",
+  "records": [
+    {
+      "brandId": "breezenet",
+      "url": "https://jichangnote.com/reviews/weifeng-network/",
+      "publisher": "机场笔记",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-07-19",
+      "time": "18:38:20 CST",
+      "dateNote": "来源标注的采样日期，与文章发布或修改日期分别记录。",
+      "sampleCount": 50,
+      "metrics": [
+        {
+          "region": "香港",
+          "samples": 15,
+          "valid": "15 / 15",
+          "latencyType": "TLS RTT",
+          "latency": "113.4 ms",
+          "download": "4241.6 Mbps",
+          "originalDownload": "530.21 MB/s"
+        },
+        {
+          "region": "台湾",
+          "samples": 5,
+          "valid": "4 / 5",
+          "latencyType": "TLS RTT",
+          "latency": "183.8 ms",
+          "download": "575.8 Mbps",
+          "originalDownload": "71.97 MB/s"
+        },
+        {
+          "region": "新加坡",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "87.7 ms",
+          "download": "2219.3 Mbps",
+          "originalDownload": "277.41 MB/s"
+        },
+        {
+          "region": "日本",
+          "samples": 10,
+          "valid": "9 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "138.2 ms",
+          "download": "1122.5 Mbps",
+          "originalDownload": "140.31 MB/s"
+        },
+        {
+          "region": "美国",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "247.1 ms",
+          "download": "113.9 Mbps",
+          "originalDownload": "14.23 MB/s"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "发布者将日本05的8KB/s列为低速无效样本；有效节点定义由来源决定，不能据此计算在线率。",
+        "区域均值为发布者计算值，本站没有原始机器日志，未重新计算或复测。Mbps与MB/s按原表保留，不把TLS握手延迟当作ICMP Ping。",
+        "一次服务器采样不能代表家庭宽带、长期稳定性、上传速度、丢包率或AI与流媒体解锁。"
+      ],
+      "status": "historical",
+      "kind": "regional",
+      "environment": "珠海 · 中国联通9Gbps测速服务器；32线程；硬件型号未记录。",
+      "tool": "MiaoKo 自定义测速（具体版本见发布者原文）",
+      "image": "https://jichangnote.com/_astro/weifeng-speed-2026-07-19.BIons3GZ_UOsDJ.webp",
+      "analysis": "先检查自己常用地区是否包含低速或失败节点，再在自己的运营商和常用时段复测。不同品牌的采样时间、线程或订阅不同，不能按本表排速度名次。"
+    },
+    {
+      "brandId": "flycat",
+      "url": "https://jichangnote.com/reviews/feimao-cloud/",
+      "publisher": "机场笔记",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-07-11",
+      "time": "21:34:44 CST",
+      "dateNote": "来源标注的采样日期，与文章发布或修改日期分别记录。",
+      "sampleCount": 57,
+      "metrics": [
+        {
+          "region": "香港",
+          "samples": 19,
+          "valid": "19 / 19",
+          "latencyType": "TLS RTT",
+          "latency": "193.1 ms",
+          "download": "605.04 Mbps",
+          "originalDownload": "75.63 MB/s"
+        },
+        {
+          "region": "台湾",
+          "samples": 2,
+          "valid": "2 / 2",
+          "latencyType": "TLS RTT",
+          "latency": "150.5 ms",
+          "download": "89.08 Mbps",
+          "originalDownload": "11.14 MB/s"
+        },
+        {
+          "region": "日本",
+          "samples": 10,
+          "valid": "9 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "169.6 ms",
+          "download": "319.54 Mbps",
+          "originalDownload": "39.94 MB/s"
+        },
+        {
+          "region": "新加坡",
+          "samples": 8,
+          "valid": "8 / 8",
+          "latencyType": "TLS RTT",
+          "latency": "167.5 ms",
+          "download": "217.89 Mbps",
+          "originalDownload": "27.24 MB/s"
+        },
+        {
+          "region": "美国",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "256 ms",
+          "download": "118.94 Mbps",
+          "originalDownload": "14.87 MB/s"
+        },
+        {
+          "region": "德国",
+          "samples": 5,
+          "valid": "5 / 5",
+          "latencyType": "TLS RTT",
+          "latency": "168 ms",
+          "download": "240.5 Mbps",
+          "originalDownload": "30.06 MB/s"
+        },
+        {
+          "region": "土耳其",
+          "samples": 1,
+          "valid": "0 / 1",
+          "latencyType": "TLS RTT",
+          "latency": "未测试",
+          "download": "0 Mbps",
+          "originalDownload": "0.00 MB/s"
+        },
+        {
+          "region": "菲律宾",
+          "samples": 1,
+          "valid": "1 / 1",
+          "latencyType": "TLS RTT",
+          "latency": "409 ms",
+          "download": "77.36 Mbps",
+          "originalDownload": "9.67 MB/s"
+        },
+        {
+          "region": "越南",
+          "samples": 1,
+          "valid": "1 / 1",
+          "latencyType": "TLS RTT",
+          "latency": "402 ms",
+          "download": "74.16 Mbps",
+          "originalDownload": "9.27 MB/s"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "日本和土耳其各有一个0速度样本；本表保留含失败样本的地区记录。",
+        "区域均值为发布者计算值，本站没有原始机器日志，未重新计算或复测。Mbps与MB/s按原表保留，不把TLS握手延迟当作ICMP Ping。",
+        "一次服务器采样不能代表家庭宽带、长期稳定性、上传速度、丢包率或AI与流媒体解锁。"
+      ],
+      "status": "historical",
+      "kind": "regional",
+      "environment": "珠海 · 中国联通9Gbps测速服务器；32线程；硬件型号未记录。",
+      "tool": "MiaoKo 自定义测速（具体版本见发布者原文）",
+      "image": "https://jichangnote.com/_astro/feimao-speed-2026-07-11.C2-xiAGd_OKvpr.webp",
+      "analysis": "先检查自己常用地区是否包含低速或失败节点，再在自己的运营商和常用时段复测。不同品牌的采样时间、线程或订阅不同，不能按本表排速度名次。"
+    },
+    {
+      "brandId": "twilight",
+      "url": "https://eoht.net/serve/airport/twilight",
+      "publisher": "Eoht",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": null,
+      "time": null,
+      "dateNote": "",
+      "sampleCount": null,
+      "metrics": [],
+      "sources": [],
+      "limitations": [
+        "来源将截图标为商家提供，不是该编辑的独立复测。缺少可靠采样日期与完整网络环境。",
+        "无法据此确认当前订阅、低速样本或长期表现，未采用速度数值。"
+      ],
+      "kind": "none",
+      "status": "supplier-image",
+      "environment": "测试网络、带宽与线程未完整披露。",
+      "tool": "未完整确认",
+      "analysis": "现有资料不足以确认当前速度。可先核对图证与测试条件，再决定是否短期自测。",
+      "image": "https://i.eoht.net/airport/twilight_speed.webp"
+    },
+    {
+      "brandId": "worryfree",
+      "url": "https://jichangnote.com/reviews/wuyou-link/",
+      "publisher": "机场笔记",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-07-18",
+      "time": "21:40:48 CST",
+      "dateNote": "来源标注的采样日期，与文章发布或修改日期分别记录。",
+      "sampleCount": 50,
+      "metrics": [
+        {
+          "region": "香港",
+          "samples": 15,
+          "valid": "15 / 15",
+          "latencyType": "TLS RTT",
+          "latency": "108.1 ms",
+          "download": "4195.3 Mbps",
+          "originalDownload": "524.41 MB/s"
+        },
+        {
+          "region": "新加坡",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "129 ms",
+          "download": "1390.74 Mbps",
+          "originalDownload": "173.84 MB/s"
+        },
+        {
+          "region": "日本",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "140.9 ms",
+          "download": "844.22 Mbps",
+          "originalDownload": "105.53 MB/s"
+        },
+        {
+          "region": "台湾",
+          "samples": 5,
+          "valid": "5 / 5",
+          "latencyType": "TLS RTT",
+          "latency": "189.6 ms",
+          "download": "628.13 Mbps",
+          "originalDownload": "78.52 MB/s"
+        },
+        {
+          "region": "美国",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "245.1 ms",
+          "download": "111.69 Mbps",
+          "originalDownload": "13.96 MB/s"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "新加坡02仅17.59KB/s。所有样本非零不代表所有节点均可正常使用。",
+        "区域均值为发布者计算值，本站没有原始机器日志，未重新计算或复测。Mbps与MB/s按原表保留，不把TLS握手延迟当作ICMP Ping。",
+        "一次服务器采样不能代表家庭宽带、长期稳定性、上传速度、丢包率或AI与流媒体解锁。"
+      ],
+      "status": "historical",
+      "kind": "regional",
+      "environment": "珠海 · 中国联通9Gbps测速服务器；32线程；硬件型号未记录。",
+      "tool": "MiaoKo 自定义测速（具体版本见发布者原文）",
+      "image": "https://jichangnote.com/_astro/wuyou-link-speed-2026-07-18.i09i425w_1PX68.webp",
+      "analysis": "先检查自己常用地区是否包含低速或失败节点，再在自己的运营商和常用时段复测。不同品牌的采样时间、线程或订阅不同，不能按本表排速度名次。"
+    },
+    {
+      "brandId": "civet",
+      "url": "https://jichangnote.com/reviews/lingmao/",
+      "publisher": "机场笔记",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-07-19",
+      "time": "17:24:44 CST",
+      "dateNote": "来源标注的采样日期，与文章发布或修改日期分别记录。",
+      "sampleCount": 50,
+      "metrics": [
+        {
+          "region": "香港",
+          "samples": 15,
+          "valid": "15 / 15",
+          "latencyType": "TLS RTT",
+          "latency": "104.1 ms",
+          "download": "4154.88 Mbps",
+          "originalDownload": "519.36 MB/s"
+        },
+        {
+          "region": "新加坡",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "94 ms",
+          "download": "1830.13 Mbps",
+          "originalDownload": "228.77 MB/s"
+        },
+        {
+          "region": "日本",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "138.4 ms",
+          "download": "1031.43 Mbps",
+          "originalDownload": "128.93 MB/s"
+        },
+        {
+          "region": "台湾",
+          "samples": 5,
+          "valid": "5 / 5",
+          "latencyType": "TLS RTT",
+          "latency": "165.6 ms",
+          "download": "548.56 Mbps",
+          "originalDownload": "68.57 MB/s"
+        },
+        {
+          "region": "美国",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "250 ms",
+          "download": "90.18 Mbps",
+          "originalDownload": "11.27 MB/s"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "美国组均值明显低于香港组；只能在这一批次内看地区差异。",
+        "区域均值为发布者计算值，本站没有原始机器日志，未重新计算或复测。Mbps与MB/s按原表保留，不把TLS握手延迟当作ICMP Ping。",
+        "一次服务器采样不能代表家庭宽带、长期稳定性、上传速度、丢包率或AI与流媒体解锁。"
+      ],
+      "status": "historical",
+      "kind": "regional",
+      "environment": "珠海 · 中国联通9Gbps测速服务器；32线程；硬件型号未记录。",
+      "tool": "MiaoKo 自定义测速（具体版本见发布者原文）",
+      "image": "https://jichangnote.com/_astro/lingmao-speed-2026-07-19.Dx39EyCC_2bthgB.webp",
+      "analysis": "先检查自己常用地区是否包含低速或失败节点，再在自己的运营商和常用时段复测。不同品牌的采样时间、线程或订阅不同，不能按本表排速度名次。"
+    },
+    {
+      "brandId": "flashleap",
+      "url": "https://jichangnote.com/reviews/shanyue/",
+      "publisher": "机场笔记",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-07-18",
+      "time": "21:18:08 CST",
+      "dateNote": "来源标注的采样日期，与文章发布或修改日期分别记录。",
+      "sampleCount": 50,
+      "metrics": [
+        {
+          "region": "香港",
+          "samples": 15,
+          "valid": "15 / 15",
+          "latencyType": "TLS RTT",
+          "latency": "120.3 ms",
+          "download": "4261.15 Mbps",
+          "originalDownload": "532.64 MB/s"
+        },
+        {
+          "region": "新加坡",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "108.8 ms",
+          "download": "2189.2 Mbps",
+          "originalDownload": "273.65 MB/s"
+        },
+        {
+          "region": "日本",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "137.1 ms",
+          "download": "1055.85 Mbps",
+          "originalDownload": "131.98 MB/s"
+        },
+        {
+          "region": "台湾",
+          "samples": 5,
+          "valid": "5 / 5",
+          "latencyType": "TLS RTT",
+          "latency": "225.6 ms",
+          "download": "594.86 Mbps",
+          "originalDownload": "74.36 MB/s"
+        },
+        {
+          "region": "美国",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "245.2 ms",
+          "download": "88.51 Mbps",
+          "originalDownload": "11.06 MB/s"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "新加坡08仅9.60KB/s。均值会掩盖个别低速节点。",
+        "区域均值为发布者计算值，本站没有原始机器日志，未重新计算或复测。Mbps与MB/s按原表保留，不把TLS握手延迟当作ICMP Ping。",
+        "一次服务器采样不能代表家庭宽带、长期稳定性、上传速度、丢包率或AI与流媒体解锁。"
+      ],
+      "status": "historical",
+      "kind": "regional",
+      "environment": "珠海 · 中国联通9Gbps测速服务器；32线程；硬件型号未记录。",
+      "tool": "MiaoKo 自定义测速（具体版本见发布者原文）",
+      "image": "https://jichangnote.com/_astro/shanyue-speed-2026-07-18.Du8JGmMw_Z8SlN0.webp",
+      "analysis": "先检查自己常用地区是否包含低速或失败节点，再在自己的运营商和常用时段复测。不同品牌的采样时间、线程或订阅不同，不能按本表排速度名次。"
+    },
+    {
+      "brandId": "firefly",
+      "url": "https://jichangnote.com/reviews/firefly/",
+      "publisher": "机场笔记",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-07-18",
+      "time": "20:35:24 CST",
+      "dateNote": "来源标注的采样日期，与文章发布或修改日期分别记录。",
+      "sampleCount": 50,
+      "metrics": [
+        {
+          "region": "香港",
+          "samples": 15,
+          "valid": "14 / 15",
+          "latencyType": "TLS RTT",
+          "latency": "106.9 ms",
+          "download": "3955.13 Mbps",
+          "originalDownload": "494.39 MB/s"
+        },
+        {
+          "region": "台湾",
+          "samples": 5,
+          "valid": "5 / 5",
+          "latencyType": "TLS RTT",
+          "latency": "163 ms",
+          "download": "427.82 Mbps",
+          "originalDownload": "53.48 MB/s"
+        },
+        {
+          "region": "新加坡",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "104.1 ms",
+          "download": "2765.52 Mbps",
+          "originalDownload": "345.69 MB/s"
+        },
+        {
+          "region": "日本",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "139.7 ms",
+          "download": "798.98 Mbps",
+          "originalDownload": "99.87 MB/s"
+        },
+        {
+          "region": "美国",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "243.5 ms",
+          "download": "85.75 Mbps",
+          "originalDownload": "10.72 MB/s"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "香港有一个零速度样本。此来源将订阅标为Firefly，但不能消除本站此前套餐名称归属的疑点。",
+        "区域均值为发布者计算值，本站没有原始机器日志，未重新计算或复测。Mbps与MB/s按原表保留，不把TLS握手延迟当作ICMP Ping。",
+        "一次服务器采样不能代表家庭宽带、长期稳定性、上传速度、丢包率或AI与流媒体解锁。"
+      ],
+      "status": "historical",
+      "kind": "regional",
+      "environment": "珠海 · 中国联通9Gbps测速服务器；32线程；硬件型号未记录。",
+      "tool": "MiaoKo 自定义测速（具体版本见发布者原文）",
+      "image": "https://jichangnote.com/_astro/firefly-speed-2026-07-18.CA8A99h__2mLtDl.webp",
+      "analysis": "先检查自己常用地区是否包含低速或失败节点，再在自己的运营商和常用时段复测。不同品牌的采样时间、线程或订阅不同，不能按本表排速度名次。"
+    },
+    {
+      "brandId": "kuajie",
+      "url": "https://jichangnote.com/reviews/kuajie-cloud/",
+      "publisher": "机场笔记",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-07-19",
+      "time": "16:18:50 CST",
+      "dateNote": "来源标注的采样日期，与文章发布或修改日期分别记录。",
+      "sampleCount": 50,
+      "metrics": [
+        {
+          "region": "美国",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "244.7 ms",
+          "download": "99.15 Mbps",
+          "originalDownload": "12.39 MB/s"
+        },
+        {
+          "region": "日本",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "139.1 ms",
+          "download": "1090.22 Mbps",
+          "originalDownload": "136.28 MB/s"
+        },
+        {
+          "region": "台湾",
+          "samples": 5,
+          "valid": "4 / 5",
+          "latencyType": "TLS RTT",
+          "latency": "174.4 ms",
+          "download": "386.46 Mbps",
+          "originalDownload": "48.31 MB/s"
+        },
+        {
+          "region": "香港",
+          "samples": 15,
+          "valid": "15 / 15",
+          "latencyType": "TLS RTT",
+          "latency": "118.2 ms",
+          "download": "4089.79 Mbps",
+          "originalDownload": "511.22 MB/s"
+        },
+        {
+          "region": "新加坡",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "100.9 ms",
+          "download": "1726.46 Mbps",
+          "originalDownload": "215.81 MB/s"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "台湾有一个零速度样本；不得只展示成功节点来推算可靠性。",
+        "区域均值为发布者计算值，本站没有原始机器日志，未重新计算或复测。Mbps与MB/s按原表保留，不把TLS握手延迟当作ICMP Ping。",
+        "一次服务器采样不能代表家庭宽带、长期稳定性、上传速度、丢包率或AI与流媒体解锁。"
+      ],
+      "status": "historical",
+      "kind": "regional",
+      "environment": "珠海 · 中国联通9Gbps测速服务器；32线程；硬件型号未记录。",
+      "tool": "MiaoKo 自定义测速（具体版本见发布者原文）",
+      "image": "https://jichangnote.com/_astro/kuajie-speed-2026-07-19.BXlB-1W-_Z2rvB2s.webp",
+      "analysis": "先检查自己常用地区是否包含低速或失败节点，再在自己的运营商和常用时段复测。不同品牌的采样时间、线程或订阅不同，不能按本表排速度名次。"
+    },
+    {
+      "brandId": "flyv",
+      "url": "https://jichangboke.org/jichang/flyv/",
+      "publisher": "机场博客",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": null,
+      "time": null,
+      "dateNote": "",
+      "sampleCount": null,
+      "metrics": [],
+      "sources": [],
+      "limitations": [
+        "本轮检索了品牌资料页、测速目录及公开评测，未找到可采用的日期、环境与图证同时具备的测速记录。",
+        "宣传速度上限、未给采样信息的排行榜或模拟数字不作为实测；没有纳入记录不等于服务不可用或速度较差。"
+      ],
+      "kind": "none",
+      "status": "not-found",
+      "environment": "测试网络、带宽与线程未完整披露。",
+      "tool": "未完整确认",
+      "analysis": "现有资料不足以确认当前速度。可先核对图证与测试条件，再决定是否短期自测。"
+    },
+    {
+      "brandId": "laddercloud",
+      "url": "https://jcspot.com/airports/laddercloud",
+      "publisher": "JCSpot",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": null,
+      "time": null,
+      "dateNote": "页面称2026-07-20测试；因缺少完整原始条件与独立核对，保留为来源说法，未确认为采样日期。",
+      "sampleCount": null,
+      "metrics": [],
+      "sources": [
+        {
+          "url": "https://tizimy.org/tuijian/laddercloud/",
+          "label": "梯子迷的图证撤回说明"
+        }
+      ],
+      "limitations": [
+        "JCSpot提供图证，网络与工具条件不完整。另一发布者梯子迷称其此前收到的图与其他品牌重复，已撤回；不能因此断定所有来源的图都是同一张。",
+        "本次未采用具体速度数字，也不将转载图数量视作独立测试次数。"
+      ],
+      "kind": "none",
+      "status": "image-only",
+      "environment": "测试网络、带宽与线程未完整披露。",
+      "tool": "未完整确认",
+      "analysis": "现有资料不足以确认当前速度。可先核对图证与测试条件，再决定是否短期自测。",
+      "image": "https://i.eoht.net/airport/laddercloud_speed.webp"
+    },
+    {
+      "brandId": "wavenet",
+      "url": "https://jichangboke.org/jichang/wavenet/",
+      "publisher": "机场博客",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": null,
+      "time": null,
+      "dateNote": "",
+      "sampleCount": null,
+      "metrics": [],
+      "sources": [],
+      "limitations": [
+        "本轮检索了品牌资料页、测速目录及公开评测，未找到可采用的日期、环境与图证同时具备的测速记录。",
+        "宣传速度上限、未给采样信息的排行榜或模拟数字不作为实测；没有纳入记录不等于服务不可用或速度较差。"
+      ],
+      "kind": "none",
+      "status": "not-found",
+      "environment": "测试网络、带宽与线程未完整披露。",
+      "tool": "未完整确认",
+      "analysis": "现有资料不足以确认当前速度。可先核对图证与测试条件，再决定是否短期自测。"
+    },
+    {
+      "brandId": "lingdong",
+      "url": "https://jichangboke.org/jichang/lingdong/",
+      "publisher": "机场博客",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": null,
+      "time": null,
+      "dateNote": "",
+      "sampleCount": null,
+      "metrics": [],
+      "sources": [],
+      "limitations": [
+        "发布者说明测速图多行数字重复，已暂停采用该图；本站同样不从这张图摘录速度。",
+        "原文另有2026-07-21的AI访问记录，那是平台可用性测试，不能代替带宽测速。"
+      ],
+      "kind": "none",
+      "status": "disputed-image",
+      "environment": "测试网络、带宽与线程未完整披露。",
+      "tool": "未完整确认",
+      "analysis": "本轮没有采用可完整核对的下载速度记录。等待带测试环境、时间和原始图证的新样本。"
+    },
+    {
+      "brandId": "invisible",
+      "url": "https://jclist.net/airports/yinxingren",
+      "publisher": "机场列表",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": null,
+      "time": null,
+      "dateNote": "页面标注2026-07-20，但测试环境不完整；文章更新时间不能补作测试日期。",
+      "sampleCount": null,
+      "metrics": [],
+      "sources": [],
+      "limitations": [
+        "来源引用Eoht图证，属于转载；缺少完整网络、工具和可复核的采样日志。",
+        "本站没有据转载图片生成速度均值，也不把多个转载页当作多次实测。"
+      ],
+      "kind": "none",
+      "status": "image-only",
+      "environment": "测试网络、带宽与线程未完整披露。",
+      "tool": "未完整确认",
+      "analysis": "现有资料不足以确认当前速度。可先核对图证与测试条件，再决定是否短期自测。",
+      "image": "https://i.eoht.net/airport/yinxingren_speed.webp"
+    },
+    {
+      "brandId": "stardream",
+      "url": "https://jichangnote.com/reviews/xingdaomeng/",
+      "publisher": "机场笔记",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-07-18",
+      "time": "15:46:18 CST",
+      "dateNote": "来源标注的采样日期，与文章发布或修改日期分别记录。",
+      "sampleCount": 65,
+      "metrics": [
+        {
+          "region": "香港",
+          "samples": 19,
+          "valid": "16 / 19",
+          "latencyType": "TLS RTT",
+          "latency": "199.8 ms",
+          "download": "2561.9 Mbps",
+          "originalDownload": "320.24 MB/s"
+        },
+        {
+          "region": "日本",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "88.1 ms",
+          "download": "2072.58 Mbps",
+          "originalDownload": "259.07 MB/s"
+        },
+        {
+          "region": "新加坡",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "186.9 ms",
+          "download": "1237.26 Mbps",
+          "originalDownload": "154.66 MB/s"
+        },
+        {
+          "region": "台湾",
+          "samples": 5,
+          "valid": "5 / 5",
+          "latencyType": "TLS RTT",
+          "latency": "143.2 ms",
+          "download": "699.52 Mbps",
+          "originalDownload": "87.44 MB/s"
+        },
+        {
+          "region": "美国",
+          "samples": 9,
+          "valid": "9 / 9",
+          "latencyType": "TLS RTT",
+          "latency": "187 ms",
+          "download": "164.29 Mbps",
+          "originalDownload": "20.54 MB/s"
+        },
+        {
+          "region": "英国",
+          "samples": 1,
+          "valid": "1 / 1",
+          "latencyType": "TLS RTT",
+          "latency": "300 ms",
+          "download": "356.88 Mbps",
+          "originalDownload": "44.61 MB/s"
+        },
+        {
+          "region": "法国",
+          "samples": 1,
+          "valid": "1 / 1",
+          "latencyType": "TLS RTT",
+          "latency": "321 ms",
+          "download": "136 Mbps",
+          "originalDownload": "17.00 MB/s"
+        },
+        {
+          "region": "马来西亚",
+          "samples": 2,
+          "valid": "2 / 2",
+          "latencyType": "TLS RTT",
+          "latency": "336 ms",
+          "download": "10.84 Mbps",
+          "originalDownload": "1.35 MB/s"
+        },
+        {
+          "region": "德国",
+          "samples": 5,
+          "valid": "0 / 5",
+          "latencyType": "未测试",
+          "latency": "未测试",
+          "download": "0 Mbps",
+          "originalDownload": "0.00 MB/s"
+        },
+        {
+          "region": "菲律宾",
+          "samples": 1,
+          "valid": "0 / 1",
+          "latencyType": "未测试",
+          "latency": "未测试",
+          "download": "0 Mbps",
+          "originalDownload": "0.00 MB/s"
+        },
+        {
+          "region": "土耳其",
+          "samples": 1,
+          "valid": "0 / 1",
+          "latencyType": "未测试",
+          "latency": "未测试",
+          "download": "0 Mbps",
+          "originalDownload": "0.00 MB/s"
+        },
+        {
+          "region": "巴西",
+          "samples": 1,
+          "valid": "0 / 1",
+          "latencyType": "未测试",
+          "latency": "未测试",
+          "download": "0 Mbps",
+          "originalDownload": "0.00 MB/s"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "香港、德国、菲律宾、土耳其、巴西均有零速度样本；地区表保留来源的失败结果。",
+        "区域均值为发布者计算值，本站没有原始机器日志，未重新计算或复测。Mbps与MB/s按原表保留，不把TLS握手延迟当作ICMP Ping。",
+        "一次服务器采样不能代表家庭宽带、长期稳定性、上传速度、丢包率或AI与流媒体解锁。"
+      ],
+      "status": "historical",
+      "kind": "regional",
+      "environment": "珠海 · 中国联通9Gbps测速服务器；32线程；硬件型号未记录。",
+      "tool": "MiaoKo 自定义测速（具体版本见发布者原文）",
+      "image": "https://jichangnote.com/_astro/xingdaomeng-speed-2026-07-18.CtSfjyW9_Z1WcLw8.webp",
+      "analysis": "先检查自己常用地区是否包含低速或失败节点，再在自己的运营商和常用时段复测。不同品牌的采样时间、线程或订阅不同，不能按本表排速度名次。"
+    },
+    {
+      "brandId": "lightspeed",
+      "url": "https://airpick.help/brands/gsy/",
+      "publisher": "AirPick",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-08-11",
+      "time": "14:32:56 CST",
+      "dateNote": "来源标注2026-08-11批次；逐行表为后续转录，不是原始机器日志。",
+      "sampleCount": 55,
+      "metrics": [
+        {
+          "region": "香港",
+          "node": "HK | 香港 | 02",
+          "latency": "16ms",
+          "httpLatency": "36ms",
+          "download": "0B",
+          "maximum": "0B"
+        },
+        {
+          "region": "台湾",
+          "node": "TW | 台湾 | 01",
+          "latency": "114ms",
+          "httpLatency": "261ms",
+          "download": "52.40MB",
+          "maximum": "65.60MB"
+        },
+        {
+          "region": "新加坡",
+          "node": "SG | 新加坡 | 01",
+          "latency": "51ms",
+          "httpLatency": "117ms",
+          "download": "55.35MB",
+          "maximum": "64.59MB"
+        },
+        {
+          "region": "日本",
+          "node": "JP | 日本 | 01",
+          "latency": "74ms",
+          "httpLatency": "164ms",
+          "download": "63.08MB",
+          "maximum": "74.42MB"
+        },
+        {
+          "region": "美国",
+          "node": "US | 美国 | 01",
+          "latency": "162ms",
+          "httpLatency": "333ms",
+          "download": "63.24MB",
+          "maximum": "90.83MB"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "香港02为0B；台湾04较低，香港20延迟偏高。另一份无日期的光速云截图不能用本批日期补齐。",
+        "这里只摘录香港、台湾、新加坡、日本、美国在原表中首次出现的节点，按原顺序选取，保留0B。不是地区均值、最快节点或全节点合格比例。",
+        "MB、KB、B为原图速度栏的字面单位，来源未明确时间分母，本站不换算为MB/s或Mbps。0ms伴随失败结果时不代表真实零延迟。",
+        "不同品牌在一天的不同时刻、不同工具下测试；截图转录可能有误，未取得机器日志，也未独立复测。"
+      ],
+      "kind": "raw-node",
+      "status": "historical",
+      "environment": "来源批次说明记录珠海联通5Gbps服务器、32线程；不是普通家庭带宽。",
+      "tool": "MAI-TEST-BOT 2.0.0-dev（来源批次说明）",
+      "image": "https://airpick.help/_astro/gsy.By8tIKCO_ZSwfeg.webp",
+      "latencyType": "延迟字段（来源按RTT解读）",
+      "analysis": "原表能帮助发现节点间差异。先打开图证核对，再用自己的宽带测试常用节点；对家宽速度、丢包与长期稳定性不作外推。"
+    },
+    {
+      "brandId": "v2yun",
+      "url": "https://jichangnote.com/reviews/weituyun/",
+      "publisher": "机场笔记",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-05-02",
+      "time": "18:21:45 CST",
+      "dateNote": "来源标注的采样日期，与文章发布或修改日期分别记录。",
+      "sampleCount": 63,
+      "metrics": [
+        {
+          "region": "香港",
+          "samples": 20,
+          "valid": "20 / 20",
+          "latencyType": "TLS RTT",
+          "latency": "136 ms",
+          "download": "2173.84 Mbps",
+          "originalDownload": "271.73 MB/s"
+        },
+        {
+          "region": "台湾",
+          "samples": 5,
+          "valid": "5 / 5",
+          "latencyType": "TLS RTT",
+          "latency": "142.4 ms",
+          "download": "784.4 Mbps",
+          "originalDownload": "98.05 MB/s"
+        },
+        {
+          "region": "新加坡",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "148.2 ms",
+          "download": "2223.6 Mbps",
+          "originalDownload": "277.95 MB/s"
+        },
+        {
+          "region": "美国",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "181.7 ms",
+          "download": "428.64 Mbps",
+          "originalDownload": "53.58 MB/s"
+        },
+        {
+          "region": "马来西亚",
+          "samples": 2,
+          "valid": "1 / 2",
+          "latencyType": "TLS RTT",
+          "latency": "198 ms",
+          "download": "45.92 Mbps",
+          "originalDownload": "5.74 MB/s"
+        },
+        {
+          "region": "日本",
+          "samples": 10,
+          "valid": "9 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "98.2 ms",
+          "download": "2413.36 Mbps",
+          "originalDownload": "301.67 MB/s"
+        },
+        {
+          "region": "巴西",
+          "samples": 1,
+          "valid": "1 / 1",
+          "latencyType": "TLS RTT",
+          "latency": "379 ms",
+          "download": "241.92 Mbps",
+          "originalDownload": "30.24 MB/s"
+        },
+        {
+          "region": "德国",
+          "samples": 5,
+          "valid": "5 / 5",
+          "latencyType": "TLS RTT",
+          "latency": "216.6 ms",
+          "download": "244.16 Mbps",
+          "originalDownload": "30.52 MB/s"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "这是五月的旧记录。其他汇总页曾将相同日期与数值标到另一品牌，品牌归属仍须核对；不作为独立交叉验证。",
+        "区域均值为发布者计算值，本站没有原始机器日志，未重新计算或复测。Mbps与MB/s按原表保留，不把TLS握手延迟当作ICMP Ping。",
+        "一次服务器采样不能代表家庭宽带、长期稳定性、上传速度、丢包率或AI与流媒体解锁。"
+      ],
+      "status": "attribution-caution",
+      "kind": "regional",
+      "environment": "珠海 · 中国联通9Gbps测速服务器；32线程；硬件型号未记录。",
+      "tool": "MiaoKo 自定义测速（具体版本见发布者原文）",
+      "image": "https://jichangnote.com/_astro/weituyun-speed-2026-05-02.CGwWsOzJ_Z1b3dh2.webp",
+      "analysis": "先检查自己常用地区是否包含低速或失败节点，再在自己的运营商和常用时段复测。不同品牌的采样时间、线程或订阅不同，不能按本表排速度名次。"
+    },
+    {
+      "brandId": "u1s1",
+      "url": "https://jichangnote.com/reviews/u1s1/",
+      "publisher": "机场笔记",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-07-09",
+      "time": "10:46:59 CST",
+      "dateNote": "来源标注的采样日期，与文章发布或修改日期分别记录。",
+      "sampleCount": 61,
+      "metrics": [
+        {
+          "region": "香港",
+          "samples": 19,
+          "valid": "17 / 19",
+          "latencyType": "TLS RTT",
+          "latency": "100.5 ms",
+          "download": "306.9 Mbps",
+          "originalDownload": "38.36 MB/s"
+        },
+        {
+          "region": "美国",
+          "samples": 10,
+          "valid": "9 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "274.7 ms",
+          "download": "137.89 Mbps",
+          "originalDownload": "17.24 MB/s"
+        },
+        {
+          "region": "日本",
+          "samples": 10,
+          "valid": "10 / 10",
+          "latencyType": "TLS RTT",
+          "latency": "173.3 ms",
+          "download": "172.36 Mbps",
+          "originalDownload": "21.55 MB/s"
+        },
+        {
+          "region": "新加坡",
+          "samples": 9,
+          "valid": "9 / 9",
+          "latencyType": "TLS RTT",
+          "latency": "145 ms",
+          "download": "219.42 Mbps",
+          "originalDownload": "27.43 MB/s"
+        },
+        {
+          "region": "台湾",
+          "samples": 5,
+          "valid": "5 / 5",
+          "latencyType": "TLS RTT",
+          "latency": "117.2 ms",
+          "download": "11.29 Mbps",
+          "originalDownload": "1.41 MB/s"
+        },
+        {
+          "region": "马来西亚",
+          "samples": 2,
+          "valid": "2 / 2",
+          "latencyType": "TLS RTT",
+          "latency": "574.5 ms",
+          "download": "2.26 Mbps",
+          "originalDownload": "0.28 MB/s"
+        },
+        {
+          "region": "俄罗斯",
+          "samples": 1,
+          "valid": "0 / 1",
+          "latencyType": "TLS RTT",
+          "latency": "未测试",
+          "download": "0 Mbps",
+          "originalDownload": "0.00 MB/s"
+        },
+        {
+          "region": "德国",
+          "samples": 5,
+          "valid": "5 / 5",
+          "latencyType": "TLS RTT",
+          "latency": "199.4 ms",
+          "download": "78.08 Mbps",
+          "originalDownload": "9.76 MB/s"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "单线程样本与其他品牌32线程样本口径不同。香港、美国、俄罗斯存在零速度样本。",
+        "区域均值为发布者计算值，本站没有原始机器日志，未重新计算或复测。Mbps与MB/s按原表保留，不把TLS握手延迟当作ICMP Ping。",
+        "一次服务器采样不能代表家庭宽带、长期稳定性、上传速度、丢包率或AI与流媒体解锁。"
+      ],
+      "status": "historical",
+      "kind": "regional",
+      "environment": "珠海 · 中国联通9Gbps测速服务器；单线程；硬件型号未记录。",
+      "tool": "MiaoKo 自定义测速（具体版本见发布者原文）",
+      "image": "https://jichangnote.com/_astro/u1s1-speed-2026-07-09.CCOlrTwg_ZdTUpp.webp",
+      "analysis": "先检查自己常用地区是否包含低速或失败节点，再在自己的运营商和常用时段复测。不同品牌的采样时间、线程或订阅不同，不能按本表排速度名次。"
+    },
+    {
+      "brandId": "jilian",
+      "url": "https://airpick.help/brands/jilian/",
+      "publisher": "AirPick",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-08-11",
+      "time": "22:46:50 CST",
+      "dateNote": "来源标注2026-08-11批次；逐行表为后续转录，不是原始机器日志。",
+      "sampleCount": 62,
+      "metrics": [
+        {
+          "region": "香港",
+          "node": "香港专线01",
+          "latency": "0ms",
+          "httpLatency": "0ms",
+          "download": "0B",
+          "maximum": "0B"
+        },
+        {
+          "region": "台湾",
+          "node": "台湾01",
+          "latency": "186ms",
+          "httpLatency": "302ms",
+          "download": "7.50MB",
+          "maximum": "24.51MB"
+        },
+        {
+          "region": "新加坡",
+          "node": "新加坡01",
+          "latency": "72ms",
+          "httpLatency": "162ms",
+          "download": "77.80MB",
+          "maximum": "101.29MB"
+        },
+        {
+          "region": "日本",
+          "node": "日本01",
+          "latency": "218ms",
+          "httpLatency": "260ms",
+          "download": "54.61MB",
+          "maximum": "78.51MB"
+        },
+        {
+          "region": "美国",
+          "node": "美国01",
+          "latency": "1787ms",
+          "httpLatency": "1350ms",
+          "download": "10.21MB",
+          "maximum": "12.29MB"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "香港01为0B，部分节点延迟异常。来源截图的套餐称极速云，与极连云的关系尚未核实，仍不加入自动选购候选。",
+        "这里只摘录香港、台湾、新加坡、日本、美国在原表中首次出现的节点，按原顺序选取，保留0B。不是地区均值、最快节点或全节点合格比例。",
+        "MB、KB、B为原图速度栏的字面单位，来源未明确时间分母，本站不换算为MB/s或Mbps。0ms伴随失败结果时不代表真实零延迟。",
+        "不同品牌在一天的不同时刻、不同工具下测试；截图转录可能有误，未取得机器日志，也未独立复测。"
+      ],
+      "kind": "raw-node",
+      "status": "historical",
+      "environment": "来源批次说明记录珠海联通5Gbps服务器、32线程；不是普通家庭带宽。",
+      "tool": "MAI-TEST-BOT 2.0.0-dev（来源批次说明）",
+      "image": "https://airpick.help/_astro/jilian.e156YuFm_Z10Jv9Y.webp",
+      "latencyType": "延迟字段（来源按RTT解读）",
+      "analysis": "原表能帮助发现节点间差异。先打开图证核对，再用自己的宽带测试常用节点；对家宽速度、丢包与长期稳定性不作外推。"
+    },
+    {
+      "brandId": "globalcloud",
+      "url": "https://airpick.help/brands/quanqiu/",
+      "publisher": "AirPick",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-08-11",
+      "time": "15:50:43 CST",
+      "dateNote": "来源标注2026-08-11批次；逐行表为后续转录，不是原始机器日志。",
+      "sampleCount": 62,
+      "metrics": [
+        {
+          "region": "香港",
+          "node": "HK | 香港 | 11",
+          "latency": "16ms",
+          "httpLatency": "41ms",
+          "download": "74.61MB",
+          "maximum": "83.30MB"
+        },
+        {
+          "region": "台湾",
+          "node": "TW | 台湾 | 01",
+          "latency": "110ms",
+          "httpLatency": "292ms",
+          "download": "72.86MB",
+          "maximum": "90.90MB"
+        },
+        {
+          "region": "新加坡",
+          "node": "SG | 新加坡 | 01",
+          "latency": "53ms",
+          "httpLatency": "119ms",
+          "download": "72.15MB",
+          "maximum": "77.76MB"
+        },
+        {
+          "region": "日本",
+          "node": "JP | 日本 | 01",
+          "latency": "203ms",
+          "httpLatency": "473ms",
+          "download": "83.79MB",
+          "maximum": "101.78MB"
+        },
+        {
+          "region": "美国",
+          "node": "US | 美国 | 01",
+          "latency": "161ms",
+          "httpLatency": "323ms",
+          "download": "56.37MB",
+          "maximum": "98.27MB"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "日本08和泰国01只有KB级；新加坡节点名称与编号存在重复或跳号，样本数按真实节点行而非最大序号计算。",
+        "这里只摘录香港、台湾、新加坡、日本、美国在原表中首次出现的节点，按原顺序选取，保留0B。不是地区均值、最快节点或全节点合格比例。",
+        "MB、KB、B为原图速度栏的字面单位，来源未明确时间分母，本站不换算为MB/s或Mbps。0ms伴随失败结果时不代表真实零延迟。",
+        "不同品牌在一天的不同时刻、不同工具下测试；截图转录可能有误，未取得机器日志，也未独立复测。"
+      ],
+      "kind": "raw-node",
+      "status": "historical",
+      "environment": "来源批次说明记录珠海联通5Gbps服务器、32线程；不是普通家庭带宽。",
+      "tool": "MAI-TEST-BOT 2.0.0-dev（来源批次说明）",
+      "image": "https://airpick.help/_astro/quanqiu.D-YFZn0N_Z2nwNSP.webp",
+      "latencyType": "延迟字段（来源按RTT解读）",
+      "analysis": "原表能帮助发现节点间差异。先打开图证核对，再用自己的宽带测试常用节点；对家宽速度、丢包与长期稳定性不作外推。"
+    },
+    {
+      "brandId": "guangnianti",
+      "url": "https://airpick.help/brands/guangnian/",
+      "publisher": "AirPick",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-08-11",
+      "time": "14:38:04 CST",
+      "dateNote": "来源标注2026-08-11批次；逐行表为后续转录，不是原始机器日志。",
+      "sampleCount": 63,
+      "metrics": [
+        {
+          "region": "香港",
+          "node": "香港20",
+          "latency": "28ms",
+          "httpLatency": "60ms",
+          "download": "95.57MB",
+          "maximum": "98.30MB"
+        },
+        {
+          "region": "台湾",
+          "node": "台湾-01",
+          "latency": "138ms",
+          "httpLatency": "286ms",
+          "download": "11.11MB",
+          "maximum": "66.68MB"
+        },
+        {
+          "region": "新加坡",
+          "node": "新加坡-01",
+          "latency": "64ms",
+          "httpLatency": "1813ms",
+          "download": "93.06MB",
+          "maximum": "97.42MB"
+        },
+        {
+          "region": "日本",
+          "node": "日本-01",
+          "latency": "85ms",
+          "httpLatency": "164ms",
+          "download": "85.86MB",
+          "maximum": "111.97MB"
+        },
+        {
+          "region": "美国",
+          "node": "美国-01",
+          "latency": "164ms",
+          "httpLatency": "338ms",
+          "download": "11.96MB",
+          "maximum": "17.89MB"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "下午采样不能代表晚高峰；只看区域首个节点示例不能推导整个地区表现。",
+        "这里只摘录香港、台湾、新加坡、日本、美国在原表中首次出现的节点，按原顺序选取，保留0B。不是地区均值、最快节点或全节点合格比例。",
+        "MB、KB、B为原图速度栏的字面单位，来源未明确时间分母，本站不换算为MB/s或Mbps。0ms伴随失败结果时不代表真实零延迟。",
+        "不同品牌在一天的不同时刻、不同工具下测试；截图转录可能有误，未取得机器日志，也未独立复测。"
+      ],
+      "kind": "raw-node",
+      "status": "historical",
+      "environment": "来源批次说明记录珠海联通5Gbps服务器、32线程；不是普通家庭带宽。",
+      "tool": "MAI-TEST-BOT 2.0.0-dev（来源批次说明）",
+      "image": "https://airpick.help/_astro/guangnian.CB2il8CY_116alm.webp",
+      "latencyType": "延迟字段（来源按RTT解读）",
+      "analysis": "原表能帮助发现节点间差异。先打开图证核对，再用自己的宽带测试常用节点；对家宽速度、丢包与长期稳定性不作外推。"
+    },
+    {
+      "brandId": "sogo",
+      "url": "https://airpick.help/brands/sogo/",
+      "publisher": "AirPick",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-08-11",
+      "time": "18:57:59 CST",
+      "dateNote": "来源标注2026-08-11批次；逐行表为后续转录，不是原始机器日志。",
+      "sampleCount": 62,
+      "metrics": [
+        {
+          "region": "香港",
+          "node": "HK | 香港 | 11",
+          "latency": "0ms",
+          "httpLatency": "0ms",
+          "download": "0B",
+          "maximum": "0B"
+        },
+        {
+          "region": "台湾",
+          "node": "TW | 台湾 | 01",
+          "latency": "72ms",
+          "httpLatency": "207ms",
+          "download": "42.28MB",
+          "maximum": "56.66MB"
+        },
+        {
+          "region": "新加坡",
+          "node": "SG | 新加坡 | 01",
+          "latency": "53ms",
+          "httpLatency": "120ms",
+          "download": "47.22MB",
+          "maximum": "57.57MB"
+        },
+        {
+          "region": "日本",
+          "node": "JP | 日本 | 01",
+          "latency": "86ms",
+          "httpLatency": "1999ms",
+          "download": "98.71MB",
+          "maximum": "124.13MB"
+        },
+        {
+          "region": "美国",
+          "node": "US | 美国 | 01",
+          "latency": "171ms",
+          "httpLatency": "175ms",
+          "download": "50.21MB",
+          "maximum": "91.88MB"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "香港11、马来西亚节点为0B；原图序号有缺失或错写，后端文字及线程字符模糊，不能把疑似文字当成确认值。",
+        "这里只摘录香港、台湾、新加坡、日本、美国在原表中首次出现的节点，按原顺序选取，保留0B。不是地区均值、最快节点或全节点合格比例。",
+        "MB、KB、B为原图速度栏的字面单位，来源未明确时间分母，本站不换算为MB/s或Mbps。0ms伴随失败结果时不代表真实零延迟。",
+        "不同品牌在一天的不同时刻、不同工具下测试；截图转录可能有误，未取得机器日志，也未独立复测。"
+      ],
+      "kind": "raw-node",
+      "status": "historical",
+      "environment": "后端文字与线程字符模糊；批次说明称珠海联通5Gbps、32线程，图中未完全确认。",
+      "tool": "MAI-TEST-BOT 2.0.0-dev（来源批次说明）",
+      "image": "https://airpick.help/_astro/sogo.Baf5PkF7_26RTzs.webp",
+      "latencyType": "延迟字段（来源按RTT解读）",
+      "analysis": "原表能帮助发现节点间差异。先打开图证核对，再用自己的宽带测试常用节点；对家宽速度、丢包与长期稳定性不作外推。"
+    },
+    {
+      "brandId": "yuzhou",
+      "url": "https://airpick.help/brands/yuzhou/",
+      "publisher": "AirPick",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-08-11",
+      "time": "21:04:24 CST",
+      "dateNote": "来源标注2026-08-11批次；逐行表为后续转录，不是原始机器日志。",
+      "sampleCount": 50,
+      "metrics": [
+        {
+          "region": "香港",
+          "node": "【香港】01",
+          "latency": "91ms",
+          "httpLatency": "446ms",
+          "download": "0.00B",
+          "maximum": "0.00B"
+        },
+        {
+          "region": "台湾",
+          "node": "【台湾】01",
+          "latency": "154ms",
+          "httpLatency": "1405ms",
+          "download": "29.17MB",
+          "maximum": "92.87MB"
+        },
+        {
+          "region": "新加坡",
+          "node": "【新加坡】01",
+          "latency": "91ms",
+          "httpLatency": "513ms",
+          "download": "360.52MB",
+          "maximum": "462.81MB"
+        },
+        {
+          "region": "日本",
+          "node": "【日本】01",
+          "latency": "144ms",
+          "httpLatency": "939ms",
+          "download": "22.38MB",
+          "maximum": "75.76MB"
+        },
+        {
+          "region": "美国",
+          "node": "【美国】01",
+          "latency": "242ms",
+          "httpLatency": "987ms",
+          "download": "8.33MB",
+          "maximum": "11.36MB"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "香港01为0B，新加坡07仅9.60KB。此记录使用另一套工具，延迟含TLS和HTTPS字段，与MAI表不属同一口径。",
+        "这里只摘录香港、台湾、新加坡、日本、美国在原表中首次出现的节点，按原顺序选取，保留0B。不是地区均值、最快节点或全节点合格比例。",
+        "MB、KB、B为原图速度栏的字面单位，来源未明确时间分母，本站不换算为MB/s或Mbps。0ms伴随失败结果时不代表真实零延迟。",
+        "不同品牌在一天的不同时刻、不同工具下测试；截图转录可能有误，未取得机器日志，也未独立复测。"
+      ],
+      "kind": "raw-node",
+      "status": "historical",
+      "environment": "来源记录珠海联通9Gbps服务器、32线程。",
+      "tool": "主端4.3.3 / 喵速4.7.0",
+      "image": "https://airpick.help/_astro/yuzhou.BTtFnvXV_bWWmy.webp",
+      "latencyType": "TLS RTT",
+      "analysis": "原表能帮助发现节点间差异。先打开图证核对，再用自己的宽带测试常用节点；对家宽速度、丢包与长期稳定性不作外推。"
+    },
+    {
+      "brandId": "2mao",
+      "url": "https://airpick.help/brands/ermao/",
+      "publisher": "AirPick",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-08-11",
+      "time": "10:45:27 CST",
+      "dateNote": "来源标注2026-08-11批次；逐行表为后续转录，不是原始机器日志。",
+      "sampleCount": 63,
+      "metrics": [
+        {
+          "region": "香港",
+          "node": "香港20",
+          "latency": "30ms",
+          "httpLatency": "49ms",
+          "download": "66.94MB",
+          "maximum": "68.22MB"
+        },
+        {
+          "region": "台湾",
+          "node": "台湾-01",
+          "latency": "100ms",
+          "httpLatency": "376ms",
+          "download": "60.92MB",
+          "maximum": "73.99MB"
+        },
+        {
+          "region": "新加坡",
+          "node": "新加坡-01",
+          "latency": "71ms",
+          "httpLatency": "300ms",
+          "download": "72.49MB",
+          "maximum": "88.77MB"
+        },
+        {
+          "region": "日本",
+          "node": "日本-01",
+          "latency": "78ms",
+          "httpLatency": "159ms",
+          "download": "86.14MB",
+          "maximum": "107.68MB"
+        },
+        {
+          "region": "美国",
+          "node": "美国-01",
+          "latency": "170ms",
+          "httpLatency": "347ms",
+          "download": "63.71MB",
+          "maximum": "110.56MB"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "英国节点出现B级结果，土耳其为0B，泰国为KB级；这些异常仍在发布者原表中，不能由示例表推断全部节点通过。",
+        "这里只摘录香港、台湾、新加坡、日本、美国在原表中首次出现的节点，按原顺序选取，保留0B。不是地区均值、最快节点或全节点合格比例。",
+        "MB、KB、B为原图速度栏的字面单位，来源未明确时间分母，本站不换算为MB/s或Mbps。0ms伴随失败结果时不代表真实零延迟。",
+        "不同品牌在一天的不同时刻、不同工具下测试；截图转录可能有误，未取得机器日志，也未独立复测。"
+      ],
+      "kind": "raw-node",
+      "status": "historical",
+      "environment": "来源批次说明记录珠海联通5Gbps服务器、32线程；不是普通家庭带宽。",
+      "tool": "MAI-TEST-BOT 2.0.0-dev（来源批次说明）",
+      "image": "https://airpick.help/_astro/ermao.r1U4Q5cj_1QrdtM.webp",
+      "latencyType": "延迟字段（来源按RTT解读）",
+      "analysis": "原表能帮助发现节点间差异。先打开图证核对，再用自己的宽带测试常用节点；对家宽速度、丢包与长期稳定性不作外推。"
+    },
+    {
+      "brandId": "1fly",
+      "url": "https://www.clashcaocao.com/brands/yifanyun/",
+      "publisher": "曹操机场笔记",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-07-19",
+      "time": "21:38 CST",
+      "dateNote": "",
+      "sampleCount": 85,
+      "metrics": [
+        {
+          "label": "TLS RTT中位数",
+          "value": "83ms"
+        },
+        {
+          "label": "速度≥20MB/s的节点",
+          "value": "77 / 85"
+        },
+        {
+          "label": "非零但低于20MB/s",
+          "value": "7 / 85"
+        },
+        {
+          "label": "零速度节点",
+          "value": "1 / 85"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "数字来自发布者报告摘要，未取得可重算的原始节点日志。77+7+1为该次样本分类，不是长期在线率。",
+        "商宽与其他来源的5Gbps/9Gbps服务器、线程数不同，不能据此作跨品牌速度排名。"
+      ],
+      "kind": "summary",
+      "status": "historical",
+      "environment": "阳江 · 中国电信2Gbps商宽；6线程。",
+      "tool": "发布者测速工具（版本未完整披露）",
+      "analysis": "这一批报告至少包含低速和零结果。摘要的阈值与中位数便于判断分布，但不能替代自己常用节点的重复测试。"
+    },
+    {
+      "brandId": "edgenova",
+      "url": "https://cuanmu.com/blog/edgenova-vpn-review/",
+      "publisher": "篡木",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-05-30",
+      "time": "14:43 CST",
+      "dateNote": "",
+      "sampleCount": null,
+      "metrics": [
+        {
+          "label": "发布者描述的多数节点速度范围",
+          "value": "20–45MB/s"
+        },
+        {
+          "label": "部分台湾节点",
+          "value": "约7MB/s"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "范围是发布者文字概括，不是全节点均值或每个节点的最低速度；样本总数、宽带与线程条件未完整给出。",
+        "文章发布于六月，引用的测试在五月；当前订阅、线路和套餐是否相同未核实。"
+      ],
+      "kind": "summary",
+      "status": "incomplete",
+      "environment": "测试网络、带宽与线程未完整披露。",
+      "tool": "MiaoKo（来源口径）",
+      "analysis": "仅能作为条件不完整的历史参考。没有足够样本明细，不能给出精确地区均值或可靠性比例。"
+    },
+    {
+      "brandId": "kosing",
+      "url": "https://airpick.help/brands/kexin/",
+      "publisher": "AirPick",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": null,
+      "time": "15:32:35 CST",
+      "dateNote": "来源把日期推定为2026-08-11；仅15:32:35时间可辨，不按已确认日期展示。",
+      "sampleCount": 55,
+      "metrics": [
+        {
+          "region": "香港",
+          "node": "HK | 香港 | 01",
+          "latency": "104ms",
+          "httpLatency": "54ms",
+          "download": "28.64MB",
+          "maximum": "36.31MB"
+        },
+        {
+          "region": "台湾",
+          "node": "TW | 台湾 | 01",
+          "latency": "133ms",
+          "httpLatency": "604ms",
+          "download": "23.06MB",
+          "maximum": "40.08MB"
+        },
+        {
+          "region": "新加坡",
+          "node": "SG | 新加坡 | 01",
+          "latency": "66ms",
+          "httpLatency": "150ms",
+          "download": "41.36MB",
+          "maximum": "48.37MB"
+        },
+        {
+          "region": "日本",
+          "node": "JP | 日本 | 01",
+          "latency": "94ms",
+          "httpLatency": "518ms",
+          "download": "40.28MB",
+          "maximum": "49.25MB"
+        },
+        {
+          "region": "美国",
+          "node": "US | 美国 | 01",
+          "latency": "174ms",
+          "httpLatency": "348ms",
+          "download": "19.68MB",
+          "maximum": "42.01MB"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "完整日历日期不是清晰图证，是按同批资料推定；部分延迟字符模糊，日本07及美国部分节点为KB级。",
+        "这里只摘录香港、台湾、新加坡、日本、美国在原表中首次出现的节点，按原顺序选取，保留0B。不是地区均值、最快节点或全节点合格比例。",
+        "MB、KB、B为原图速度栏的字面单位，来源未明确时间分母，本站不换算为MB/s或Mbps。0ms伴随失败结果时不代表真实零延迟。",
+        "不同品牌在一天的不同时刻、不同工具下测试；截图转录可能有误，未取得机器日志，也未独立复测。"
+      ],
+      "kind": "raw-node",
+      "status": "date-uncertain",
+      "environment": "来源批次说明记录珠海联通5Gbps服务器、32线程；不是普通家庭带宽。",
+      "tool": "MAI-TEST-BOT 2.0.0-dev（来源批次说明）",
+      "image": "https://airpick.help/_astro/kexin.CbKZ1FE9_ZBMPud.webp",
+      "latencyType": "延迟字段（来源按RTT解读）",
+      "analysis": "原表能帮助发现节点间差异。先打开图证核对，再用自己的宽带测试常用节点；对家宽速度、丢包与长期稳定性不作外推。"
+    },
+    {
+      "brandId": "sujie",
+      "url": "https://airpick.help/brands/sujie/",
+      "publisher": "AirPick",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-08-11",
+      "time": "15:39:36 CST",
+      "dateNote": "来源标注2026-08-11批次；逐行表为后续转录，不是原始机器日志。",
+      "sampleCount": 63,
+      "metrics": [
+        {
+          "region": "香港",
+          "node": "香港20",
+          "latency": "13ms",
+          "httpLatency": "35ms",
+          "download": "0B",
+          "maximum": "0B"
+        },
+        {
+          "region": "台湾",
+          "node": "台湾-01",
+          "latency": "147ms",
+          "httpLatency": "383ms",
+          "download": "27.87MB",
+          "maximum": "38.04MB"
+        },
+        {
+          "region": "新加坡",
+          "node": "新加坡-01",
+          "latency": "48ms",
+          "httpLatency": "109ms",
+          "download": "7.44MB",
+          "maximum": "27.98MB"
+        },
+        {
+          "region": "日本",
+          "node": "日本-01",
+          "latency": "158ms",
+          "httpLatency": "273ms",
+          "download": "42.89MB",
+          "maximum": "52.33MB"
+        },
+        {
+          "region": "美国",
+          "node": "美国-01",
+          "latency": "165ms",
+          "httpLatency": "339ms",
+          "download": "35.51MB",
+          "maximum": "62.06MB"
+        }
+      ],
+      "sources": [],
+      "limitations": [
+        "香港20及英国01为0B。截图协议列与品牌介绍的协议声明不同，不能据此确认物理线路或当前订阅。",
+        "这里只摘录香港、台湾、新加坡、日本、美国在原表中首次出现的节点，按原顺序选取，保留0B。不是地区均值、最快节点或全节点合格比例。",
+        "MB、KB、B为原图速度栏的字面单位，来源未明确时间分母，本站不换算为MB/s或Mbps。0ms伴随失败结果时不代表真实零延迟。",
+        "不同品牌在一天的不同时刻、不同工具下测试；截图转录可能有误，未取得机器日志，也未独立复测。"
+      ],
+      "kind": "raw-node",
+      "status": "historical",
+      "environment": "来源批次说明记录珠海联通5Gbps服务器、32线程；不是普通家庭带宽。",
+      "tool": "MAI-TEST-BOT 2.0.0-dev（来源批次说明）",
+      "image": "https://airpick.help/_astro/sujie.B9LwJ9PH_Z228RMz.webp",
+      "latencyType": "延迟字段（来源按RTT解读）",
+      "analysis": "原表能帮助发现节点间差异。先打开图证核对，再用自己的宽带测试常用节点；对家宽速度、丢包与长期稳定性不作外推。"
+    },
+    {
+      "brandId": "kuaili",
+      "url": "https://jichangtuijian.mom/reviews/kuaili/",
+      "publisher": "机场实测室",
+      "ownTest": false,
+      "currentVerified": false,
+      "checkedDate": "2026-10-03",
+      "testDate": "2026-08-11",
+      "time": "19:52:22 CST",
+      "dateNote": "本站打开发布者原始PNG核对：页脚显示2026-08-11 19:52:22 CST，表内为50个节点；以下仅转录各常用地区首次出现的节点。",
+      "sampleCount": 50,
+      "metrics": [
+        {
+          "region": "香港",
+          "node": "香港 | Hong Kong13",
+          "latency": "202ms",
+          "httpLatency": "635ms",
+          "download": "550.68MB",
+          "maximum": "598.92MB"
+        },
+        {
+          "region": "新加坡",
+          "node": "新加坡 | Singapore06",
+          "latency": "105ms",
+          "httpLatency": "717ms",
+          "download": "419.59MB",
+          "maximum": "570.86MB"
+        },
+        {
+          "region": "日本",
+          "node": "日本 | Japan09",
+          "latency": "134ms",
+          "httpLatency": "730ms",
+          "download": "189.69MB",
+          "maximum": "377.67MB"
+        },
+        {
+          "region": "台湾",
+          "node": "台湾 | Taiwan04",
+          "latency": "203ms",
+          "httpLatency": "1048ms",
+          "download": "90.39MB",
+          "maximum": "124.20MB"
+        },
+        {
+          "region": "美国",
+          "node": "美国 | United States04",
+          "latency": "245ms",
+          "httpLatency": "1000ms",
+          "download": "13.89MB",
+          "maximum": "32.00MB"
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://jichangtuijian.mom/evidence/speedtest/2026-08-11/speedtest-manifest.json",
+          "label": "批次元数据"
+        }
+      ],
+      "limitations": [
+        "数值由本站从发布者公开PNG转录，未取得机器日志、订阅或进行复测。香港等节点按原表顺序列出，不是地区均值或最快节点。",
+        "MB、KB、B沿用速度栏原始单位，时间分母未明确，不换算成Mbps或MB/s。第50行新加坡08只有9.60KB，单看示例表会遗漏低速节点。",
+        "19:52的一次采样不能证明整个晚高峰稳定，也不能证明AI或流媒体解锁。它与该批其他品牌的MAI工具不同，不能跨品牌排名。"
+      ],
+      "kind": "raw-node",
+      "status": "historical",
+      "environment": "图证页脚标注珠海联通9Gbps服务器、32线程；主端4.3.3、核心4.7.0。",
+      "tool": "主端4.3.3 / 喵速4.7.0",
+      "analysis": "图中香港、美国和个别新加坡节点结果相差很大；应打开全图检查自己常用节点，再用实际宽带与常用时间段重复验证。",
+      "image": "https://jichangtuijian.mom/evidence/speedtest/2026-08-11/快狸-节点测速实测.png",
+      "latencyType": "TLS RTT"
+    }
+  ]
+}

@@ -53,3 +53,8 @@ body{background-image:url('page-atmosphere.svg'),radial-gradient(ellipse at 0% 2
 .coupon-condition-hint{font-size:14px;line-height:1.8;overflow-wrap:anywhere}.coupon-condition-hint a{display:inline-flex;align-items:center;min-height:44px;color:#aed3ff}.attribution-hint{font-size:13px;color:#ffdc98;border-left:2px solid #d5ad62;padding-left:10px;line-height:1.8}
 
 .coupon-review-note{scroll-margin-top:130px}.official-evidence{overflow-wrap:anywhere}
+
+.card-entry-row{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin-top:16px}.card-entry-row .button{min-height:44px;padding:10px 17px;font-size:14px}.card-entry-row small{font-size:11px;color:#abc2de}
+
+/* Speed evidence stays readable on small screens. */
+.speed-record{scroll-margin-top:120px}.speed-record-head{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.speed-context{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:24px 0}.speed-context div{padding:16px;border:1px solid #304763;border-radius:12px;background:#112137}.speed-context dt{font-size:12px;color:#86bbff;margin-bottom:7px}.speed-context dd{margin:0;font-size:14px;line-height:1.7;overflow-wrap:anywhere}.speed-table{min-width:660px}.speed-table-scroll:focus-visible{outline:2px solid #84b8ff;outline-offset:4px}.speed-record .notice li{margin:8px 0}.speed-record .inline-links a{overflow-wrap:anywhere}#speed-reports{scroll-margin-top:110px}@media(max-width:600px){.speed-context{grid-template-columns:1fr}.card-entry-row .button{flex-shrink:0}.speed-record-head{gap:8px}}
