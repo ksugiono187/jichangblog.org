@@ -1,3 +1,4 @@
+import {quotaLabel} from '../assets/quota.js';
 import {enrichGuides} from '../data/enrichment.mjs';
 import {topics as originalTopics,guides,comparisons} from '../data/editorial.mjs';
 import {extraTopics,extraGuides,extraComparisons,brandAnalyses,brandAnalysisSections} from '../data/expansion.mjs';
@@ -25,7 +26,7 @@ function comparisonSections(a,brands){
  const ps=bs.map(enough);
  const rows=bs.map((b,i)=>{const p=ps[i];return `<tr><th scope="row"><a href="../../brands/${b.id}/">${E(b.name)}</a></th>${p?`<td>${E(p.name)}</td><td>¥${p.price}/月</td><td>${p.gb}GB/月</td><td>¥${(p.price/p.gb).toFixed(3)}</td><td>${p.gb-a.flow}GB</td>`:'<td colspan="5">所录月包未找到满足此用量且容量明确的档位</td>'}</tr>`;}).join('');
  const cash=ps.every(Boolean)?`按照月用量 ${a.flow}GB 这一假设，${bs[0].name}的最低匹配档为 ${ps[0].name}，月付 ${ps[0].price} 元；${bs[1].name}为 ${ps[1].name}，月付 ${ps[1].price} 元。两档每月支出相差 ${Math.abs(ps[0].price-ps[1].price).toFixed(2)} 元，标称容量相差 ${Math.abs(ps[0].gb-ps[1].gb)}GB。差额只反映套餐结构，无法证明速度、稳定性或平台可用性。`:'部分档位缺少容量或没有合适月包，不能直接给出同用量下的最低月成本。先补充购买页资料，再作比较。';
- const extra=bs.map(b=>{const annual=b.plans.filter(p=>p.cycle==='年付').sort((x,y)=>x.price-y.price)[0];const once=b.plans.filter(p=>p.cycle==='一次性');return `${b.name}${annual?`的最低年付参考档需一次支付 ${annual.price} 元，记录容量为 ${annual.gb??'待核验'}${annual.gb?'GB/月':''}；折合月成本 ${(annual.price/12).toFixed(2)} 元`:'暂未收录可比较的年付档'}。${once.length?`另有一次性包资料：${once.map(p=>`${p.name}，${p.price} 元、${p.gb??'待核验'}${p.gb?'GB 总量':''}`).join('；')}。一次性总量不按月刷新，应确认有效期。`:'本站未收录其一次性包资料，这不表示官网一定没有出售。'}`;});
+ const extra=bs.map(b=>{const annual=b.plans.filter(p=>p.cycle==='年付').sort((x,y)=>x.price-y.price)[0];const once=b.plans.filter(p=>p.cycle==='一次性');return `${b.name}${annual?`的最低年付参考档需一次支付 ${annual.price} 元，记录容量为 ${quotaLabel(annual)}；折合月成本 ${(annual.price/12).toFixed(2)} 元`:'暂未收录可比较的年付档'}。${once.length?`另有一次性包资料：${once.map(p=>`${p.name}，${p.price} 元、${p.gb??'待核验'}${p.gb?'GB 总量':''}`).join('；')}。一次性总量不按月刷新，应确认有效期。`:'本站未收录其一次性包资料，这不表示官网一定没有出售。'}`;});
  return [
  {heading:'先把两个品牌放进同一用量假设',paragraphs:[a.angle,`本次以每月 ${a.flow}GB、按月支付、未使用优惠码为比较基线。筛选规则是：从收录的月付档中，选择容量明确且不低于这一用量的最低价格套餐。这里的用量是假设，不是本站测得的个人消耗；若你实际使用量不同，结论也会改变。`]},
  {heading:'满足用量的参考月包怎么选',paragraphs:[cash],html:`<div class="table-scroll"><table><caption>${a.flow}GB/月场景 · 第三方参考资料，未计倍率与优惠</caption><thead><tr><th>品牌</th><th>匹配套餐</th><th>月付</th><th>标称流量</th><th>元/GB</th><th>标称余量</th></tr></thead><tbody>${rows}</tbody></table></div><p class="table-foot">余量 = 套餐标称流量 − 假设月用量。单 GB 价格 = 月付金额 ÷ 标称流量。节点倍率、附加费与折扣会改变实际成本。</p>`},

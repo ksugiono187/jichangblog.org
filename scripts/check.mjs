@@ -39,3 +39,5 @@ console.log('PASS: 11 homepage copy actions; all 28 brands have previous/next li
 await import('./check-reader.mjs');
 
 await import('./check-metadata.mjs');
+
+await import('./check-research.mjs');

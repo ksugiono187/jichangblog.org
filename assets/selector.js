@@ -12,7 +12,7 @@ export function selectPlans(brands,criteria){
  const required=Math.ceil(q.traffic*q.multiplier*(1+q.reserve/100)*100-1e-8)/100;
  const rows=[];
  for(const brand of brands){
-  const candidates=brand.plans.filter(p=>p.cycle===q.cycle&&Number.isFinite(p.gb)&&p.gb>=required&&p.price<=q.budget&&p.price>0).sort((a,b)=>a.price-b.price||a.gb-b.gb);
+  const candidates=brand.plans.filter(p=>p.cycle===q.cycle&&(!p.quotaPeriod||p.quotaPeriod===(q.cycle==='一次性'?'total':'month'))&&Number.isFinite(p.gb)&&p.gb>=required&&p.price<=q.budget&&p.price>0).sort((a,b)=>a.price-b.price||a.gb-b.gb);
   const plan=candidates[0];if(!plan)continue;
   rows.push({brand,plan,monthlyCost:q.cycle==='一次性'?null:plan.price/(q.cycle==='年付'?12:1),unitCost:plan.price/(plan.gb*(q.cycle==='年付'?12:1)),spare:plan.gb-required,required});
  }

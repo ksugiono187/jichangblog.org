@@ -1,0 +1,95 @@
+{
+  "checkedDate": "2026-10-03",
+  "method": "阅读发布者原文、测试条件及公开图证；未取得原始日志、未复测，不确认测量真实性或当前可用性。发布者含推广链接，属于有商业关联的历史资料。",
+  "records": [
+    {
+      "brandId": "breezenet",
+      "publisher": "机场博客",
+      "url": "https://jichangboke.org/jichang/breezenet/",
+      "testDate": "2026-07-19 18:38",
+      "environment": "珠海联通 9Gbps · 32 线程 · MiaoKo",
+      "sample": 50,
+      "finding": "报告记录台湾02没有速度、日本05仅8KB/s；流媒体脚本检测覆盖50个节点，未测试AI。",
+      "limit": "公开页面附测速与解锁截图，但未取得原始日志。测试在18:38，不能作为完整晚高峰或长期稳定性证据。",
+      "analysis": "把这一记录用于寻找需要复测的地区。香港节点的高吞吐数字来自9Gbps测试机，不能直接当作家庭宽带下载速度。"
+    },
+    {
+      "brandId": "flashleap",
+      "publisher": "机场博客",
+      "url": "https://jichangboke.org/jichang/flashleap/",
+      "testDate": "2026-07-18 21:18",
+      "environment": "珠海联通 9Gbps · 32 线程 · MiaoKo",
+      "sample": 50,
+      "finding": "报告记录新加坡08只有9.60KB/s；这轮解锁检测包含YouTube、Netflix和Disney+，不含AI。",
+      "limit": "有公开截图；页面资料摘要仍写尚无独立实测，与正文测试记录不一致。只保留带日期的历史记录，可信度需保留疑问。",
+      "analysis": "对AI场景不作能力推断。单晚单线路数据也不能证明电信、移动用户的晚高峰表现。"
+    },
+    {
+      "brandId": "kuajie",
+      "publisher": "机场博客",
+      "url": "https://jichangboke.org/jichang/kuajie/",
+      "testDate": "2026-07-19 16:18",
+      "environment": "珠海联通 9Gbps · 32 线程 · MiaoKo",
+      "sample": 50,
+      "finding": "正文记录50个节点的下午测试；日本节点两次HTTPS延迟记录有明显波动，没有AI与TikTok测试。",
+      "limit": "有公开图证，但页面资料摘要与正文关于是否实测的说法不一致。16:18的样本不能当作晚高峰数据。",
+      "analysis": "需要补充自己网络的晚间连续记录；单次吞吐与页面响应延迟应分别看，不合成稳定性评分。"
+    },
+    {
+      "brandId": "lingdong",
+      "publisher": "机场博客",
+      "url": "https://jichangboke.org/jichang/lingdong/",
+      "testDate": "2026-07-21 19:12",
+      "environment": "珠海联通 9Gbps · MiaoKo",
+      "sample": 60,
+      "finding": "解锁报告记录OpenAI通过59/60、TikTok通过10/60。发布者指出另一次测速图存在多组完全重复数字，未公开该测速图。",
+      "limit": "本次查看了公开套餐原图，穿云一行写70GB/年；截图本身未显示采集日期。没有原始测速日志，不采用有疑点的速度数值。",
+      "analysis": "AI脚本通过率不能代替账号实际使用。穿云以全年70GB解释时，99÷70≈1.414元/GB；此前按每月70GB计算会把全年可用量放大12倍。",
+      "artifact": "https://jichangboke.org/media/airports/lingdong/test-02.webp"
+    },
+    {
+      "brandId": "flycat",
+      "publisher": "Clash 曹操",
+      "url": "https://www.clashcaocao.com/brands/flycat/",
+      "testDate": "2026-07-19 21:42 CST",
+      "environment": "张家口电信 1Gbps · 8线程 · 喵速 SC-2.0.0-beta8",
+      "sample": 88,
+      "finding": "报告记录TikTok通过17/88，另有2个节点没有速度；台湾节点的Netflix区域被识别为HK。",
+      "limit": "页面给出条件与汇总，未取得逐节点原始日志。自动检测不等于播放或账户使用，也不能推广至当前全部节点。",
+      "analysis": "与另一份7月11日报告的概括可用结论不一致，应核对具体地区、日期和节点样本，不能合并成全节点解锁。"
+    },
+    {
+      "brandId": "flycat",
+      "publisher": "AI机场",
+      "url": "https://ai-jichang.com/airport/feimao-cloud",
+      "testDate": "2026-07-11",
+      "environment": "珠海联通 9Gbps · 32线程（按原文说明）",
+      "sample": 57,
+      "finding": "报告统计57个地区节点，55个取得有效速度；AI与流媒体采用概括可用标签，没有逐节点解锁明细。",
+      "limit": "测试样本、日期和网络均与7月19日报告不同，不能直接比较速度，也不能把概括标签理解为所有节点可用。",
+      "analysis": "55÷57≈96.5%只表示该轮测试完成比例，没有时间序列，不能写成99.99%在线率。学生年包按该第三方文章每月50GB口径记录，仍需复核当前订单。"
+    },
+    {
+      "brandId": "1fly",
+      "publisher": "Clash 曹操",
+      "url": "https://www.clashcaocao.com/brands/yifanyun/",
+      "testDate": "2026-07-19 21:38 CST",
+      "environment": "阳江电信 2Gbps · 6线程 · 喵速 SC-2.1.0",
+      "sample": 85,
+      "finding": "报告记录美国与台湾Netflix检测各0/10，另有1个节点没有速度；页面提供区域汇总图。",
+      "limit": "区域汇总图不是原始逐节点日志。只有一次商用线路测试，不能据此判断当前地区解锁或长期稳定性。",
+      "analysis": "目标若是美国或台湾片库，应实际验证目标内容；节点名称和地区汇总不能替代出口区域及实际播放检查。"
+    },
+    {
+      "brandId": "stardream",
+      "publisher": "Clash 曹操",
+      "url": "https://www.clashcaocao.com/brands/seedream/",
+      "testDate": "2026-07-20 21:25 CST",
+      "environment": "上海 Azure 10Gbps · 1线程 · 喵速 SC-2.3.1",
+      "sample": 90,
+      "finding": "报告记录部分标称英国、俄罗斯节点的ASN归属不同，美国节点流媒体区域判定为HK。",
+      "limit": "原始日志未取得。ASN归属也不等同于服务器物理位置；商用云入口与家宽环境不同。",
+      "analysis": "选择片库时以平台实际识别区域为准。线路和原生IP标签均不能仅靠节点名称或ASN证明。"
+    }
+  ]
+}

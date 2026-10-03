@@ -1,0 +1,1265 @@
+{
+  "checkedDate": "2026-10-03",
+  "records": [
+    {
+      "id": "breezenet",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "乘风 Riding",
+          "price": 27,
+          "quota": 200,
+          "spare": 170,
+          "effectiveUnit": 0.9
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "乘风 Riding",
+          "price": 27,
+          "quota": 200,
+          "spare": 100,
+          "effectiveUnit": 0.27
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "乘风 Riding",
+          "price": 27,
+          "quota": 200,
+          "spare": 0,
+          "effectiveUnit": 0.135
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "破风 Breaking",
+          "price": 57,
+          "quota": 500,
+          "spare": 0,
+          "effectiveUnit": 0.114
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "御风 Mastery",
+          "price": 127,
+          "quota": 1200,
+          "spare": 200,
+          "effectiveUnit": 0.127
+        }
+      ]
+    },
+    {
+      "id": "flycat",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "星耀版",
+          "price": 25,
+          "quota": 150,
+          "spare": 120,
+          "effectiveUnit": 0.8333333333333334
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "星耀版",
+          "price": 25,
+          "quota": 150,
+          "spare": 50,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "星环版",
+          "price": 45,
+          "quota": 300,
+          "spare": 100,
+          "effectiveUnit": 0.225
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "银河版",
+          "price": 85,
+          "quota": 600,
+          "spare": 100,
+          "effectiveUnit": 0.17
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "宇宙版",
+          "price": 150,
+          "quota": 1000,
+          "spare": 0,
+          "effectiveUnit": 0.15
+        }
+      ]
+    },
+    {
+      "id": "twilight",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "暮光·基础版",
+          "price": 20,
+          "quota": 120,
+          "spare": 90,
+          "effectiveUnit": 0.6666666666666666
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "暮光·基础版",
+          "price": 20,
+          "quota": 120,
+          "spare": 20,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "暮光·标准版",
+          "price": 40,
+          "quota": 240,
+          "spare": 40,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "暮光·旗舰版",
+          "price": 100,
+          "quota": 700,
+          "spare": 200,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "暮光·至尊版",
+          "price": 180,
+          "quota": 1500,
+          "spare": 500,
+          "effectiveUnit": 0.18
+        }
+      ]
+    },
+    {
+      "id": "worryfree",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "舒心链接",
+          "price": 19,
+          "quota": 100,
+          "spare": 70,
+          "effectiveUnit": 0.6333333333333333
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "舒心链接",
+          "price": 19,
+          "quota": 100,
+          "spare": 0,
+          "effectiveUnit": 0.19
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "省心链接",
+          "price": 33,
+          "quota": 200,
+          "spare": 0,
+          "effectiveUnit": 0.165
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "随心链接",
+          "price": 77,
+          "quota": 500,
+          "spare": 0,
+          "effectiveUnit": 0.154
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "忘忧链接",
+          "price": 117,
+          "quota": 1000,
+          "spare": 0,
+          "effectiveUnit": 0.117
+        }
+      ]
+    },
+    {
+      "id": "civet",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "灵猫·月付Small",
+          "price": 25,
+          "quota": 150,
+          "spare": 120,
+          "effectiveUnit": 0.8333333333333334
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "灵猫·月付Small",
+          "price": 25,
+          "quota": 150,
+          "spare": 50,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "灵猫·月付Big",
+          "price": 45,
+          "quota": 300,
+          "spare": 100,
+          "effectiveUnit": 0.225
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": null,
+          "price": null,
+          "quota": null,
+          "spare": null,
+          "effectiveUnit": null
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": null,
+          "price": null,
+          "quota": null,
+          "spare": null,
+          "effectiveUnit": null
+        }
+      ]
+    },
+    {
+      "id": "flashleap",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "闪动 Flicker",
+          "price": 24,
+          "quota": 150,
+          "spare": 120,
+          "effectiveUnit": 0.8
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "闪动 Flicker",
+          "price": 24,
+          "quota": 150,
+          "spare": 50,
+          "effectiveUnit": 0.24
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "飞跃 Leap",
+          "price": 44,
+          "quota": 300,
+          "spare": 100,
+          "effectiveUnit": 0.22
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "瞬移 Teleport",
+          "price": 84,
+          "quota": 600,
+          "spare": 100,
+          "effectiveUnit": 0.168
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "跃迁 Warp",
+          "price": 134,
+          "quota": 1000,
+          "spare": 0,
+          "effectiveUnit": 0.134
+        }
+      ]
+    },
+    {
+      "id": "firefly",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "Firefly Lite",
+          "price": 25,
+          "quota": 150,
+          "spare": 120,
+          "effectiveUnit": 0.8333333333333334
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "Firefly Lite",
+          "price": 25,
+          "quota": 150,
+          "spare": 50,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "Firefly Plus",
+          "price": 45,
+          "quota": 300,
+          "spare": 100,
+          "effectiveUnit": 0.225
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "Firefly Blaze",
+          "price": 85,
+          "quota": 600,
+          "spare": 100,
+          "effectiveUnit": 0.17
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "Firefly Nova",
+          "price": 150,
+          "quota": 1000,
+          "spare": 0,
+          "effectiveUnit": 0.15
+        }
+      ]
+    },
+    {
+      "id": "kuajie",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "轻云 Lite",
+          "price": 20,
+          "quota": 120,
+          "spare": 90,
+          "effectiveUnit": 0.6666666666666666
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "轻云 Lite",
+          "price": 20,
+          "quota": 120,
+          "spare": 20,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "跃云 Leap",
+          "price": 40,
+          "quota": 330,
+          "spare": 130,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "凌云 Soar",
+          "price": 90,
+          "quota": 830,
+          "spare": 330,
+          "effectiveUnit": 0.18
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "无界 Infinity",
+          "price": 130,
+          "quota": 1800,
+          "spare": 800,
+          "effectiveUnit": 0.13
+        }
+      ]
+    },
+    {
+      "id": "flyv",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "FlyV 会员·入门方案",
+          "price": 25,
+          "quota": 150,
+          "spare": 120,
+          "effectiveUnit": 0.8333333333333334
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "FlyV 会员·入门方案",
+          "price": 25,
+          "quota": 150,
+          "spare": 50,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "FlyV 会员·进阶方案",
+          "price": 50,
+          "quota": 380,
+          "spare": 180,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "FlyV 会员·高端方案",
+          "price": 110,
+          "quota": 800,
+          "spare": 300,
+          "effectiveUnit": 0.22
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "FlyV 会员·商业方案",
+          "price": 190,
+          "quota": 1843,
+          "spare": 843,
+          "effectiveUnit": 0.19
+        }
+      ]
+    },
+    {
+      "id": "laddercloud",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "初阶网络·基础视界",
+          "price": 25,
+          "quota": 125,
+          "spare": 95,
+          "effectiveUnit": 0.8333333333333334
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "初阶网络·基础视界",
+          "price": 25,
+          "quota": 125,
+          "spare": 25,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "中阶加速·极清多线",
+          "price": 60,
+          "quota": 350,
+          "spare": 150,
+          "effectiveUnit": 0.3
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "高阶专线·全球智联",
+          "price": 110,
+          "quota": 750,
+          "spare": 250,
+          "effectiveUnit": 0.22
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "顶阶商业·全球骨干",
+          "price": 190,
+          "quota": 1600,
+          "spare": 600,
+          "effectiveUnit": 0.19
+        }
+      ]
+    },
+    {
+      "id": "wavenet",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "浪网 进阶",
+          "price": 70,
+          "quota": 450,
+          "spare": 420,
+          "effectiveUnit": 2.3333333333333335
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "浪网 进阶",
+          "price": 70,
+          "quota": 450,
+          "spare": 350,
+          "effectiveUnit": 0.7
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "浪网 进阶",
+          "price": 70,
+          "quota": 450,
+          "spare": 250,
+          "effectiveUnit": 0.35
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "浪网 高端",
+          "price": 120,
+          "quota": 800,
+          "spare": 300,
+          "effectiveUnit": 0.24
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "浪网 商业",
+          "price": 200,
+          "quota": 2000,
+          "spare": 1000,
+          "effectiveUnit": 0.2
+        }
+      ]
+    },
+    {
+      "id": "lingdong",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "灵动·拂风",
+          "price": 20,
+          "quota": 100,
+          "spare": 70,
+          "effectiveUnit": 0.6666666666666666
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "灵动·拂风",
+          "price": 20,
+          "quota": 100,
+          "spare": 0,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "灵动·驭浪",
+          "price": 50,
+          "quota": 300,
+          "spare": 100,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "灵动·破晓",
+          "price": 100,
+          "quota": 700,
+          "spare": 200,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "灵动·凌霄",
+          "price": 180,
+          "quota": 1500,
+          "spare": 500,
+          "effectiveUnit": 0.18
+        }
+      ]
+    },
+    {
+      "id": "invisible",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "隐形人 白银纪元",
+          "price": 24,
+          "quota": 144,
+          "spare": 114,
+          "effectiveUnit": 0.8
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "隐形人 白银纪元",
+          "price": 24,
+          "quota": 144,
+          "spare": 44,
+          "effectiveUnit": 0.24
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "隐形人 黄金序列",
+          "price": 48,
+          "quota": 360,
+          "spare": 160,
+          "effectiveUnit": 0.24
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "隐形人 铂金至臻",
+          "price": 105,
+          "quota": 750,
+          "spare": 250,
+          "effectiveUnit": 0.21
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "隐形人 钻石穹顶",
+          "price": 185,
+          "quota": 1500,
+          "spare": 500,
+          "effectiveUnit": 0.185
+        }
+      ]
+    },
+    {
+      "id": "stardream",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "超量150G",
+          "price": 25,
+          "quota": 150,
+          "spare": 120,
+          "effectiveUnit": 0.8333333333333334
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "超量150G",
+          "price": 25,
+          "quota": 150,
+          "spare": 50,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "进阶300G",
+          "price": 50,
+          "quota": 300,
+          "spare": 100,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "闪光500G",
+          "price": 70,
+          "quota": 500,
+          "spare": 0,
+          "effectiveUnit": 0.14
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "旗舰1T",
+          "price": 130,
+          "quota": 1000,
+          "spare": 0,
+          "effectiveUnit": 0.13
+        }
+      ]
+    },
+    {
+      "id": "lightspeed",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "光速云·极速版",
+          "price": 17,
+          "quota": 110,
+          "spare": 80,
+          "effectiveUnit": 0.5666666666666667
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "光速云·极速版",
+          "price": 17,
+          "quota": 110,
+          "spare": 10,
+          "effectiveUnit": 0.17
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "光速云·流光版",
+          "price": 34,
+          "quota": 220,
+          "spare": 20,
+          "effectiveUnit": 0.17
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "光速云·无界版",
+          "price": 130,
+          "quota": 900,
+          "spare": 400,
+          "effectiveUnit": 0.26
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": null,
+          "price": null,
+          "quota": null,
+          "spare": null,
+          "effectiveUnit": null
+        }
+      ]
+    },
+    {
+      "id": "v2yun",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "唯兔云·普通版",
+          "price": 19.9,
+          "quota": 150,
+          "spare": 120,
+          "effectiveUnit": 0.6633333333333333
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "唯兔云·普通版",
+          "price": 19.9,
+          "quota": 150,
+          "spare": 50,
+          "effectiveUnit": 0.19899999999999998
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "唯兔云·进阶版",
+          "price": 29.9,
+          "quota": 200,
+          "spare": 0,
+          "effectiveUnit": 0.1495
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "唯兔云·专业版",
+          "price": 59.9,
+          "quota": 500,
+          "spare": 0,
+          "effectiveUnit": 0.1198
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "唯兔云·至尊版",
+          "price": 119.9,
+          "quota": 1000,
+          "spare": 0,
+          "effectiveUnit": 0.1199
+        }
+      ]
+    },
+    {
+      "id": "u1s1",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "u1s1·普通人真够了包",
+          "price": 20,
+          "quota": 120,
+          "spare": 90,
+          "effectiveUnit": 0.6666666666666666
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "u1s1·普通人真够了包",
+          "price": 20,
+          "quota": 120,
+          "spare": 20,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "u1s1·你以为用不到包",
+          "price": 40,
+          "quota": 300,
+          "spare": 100,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "u1s1·瘾大就拉满包",
+          "price": 100,
+          "quota": 700,
+          "spare": 200,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "u1s1·我全都要包",
+          "price": 180,
+          "quota": 1500,
+          "spare": 500,
+          "effectiveUnit": 0.18
+        }
+      ]
+    },
+    {
+      "id": "jilian",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "极速云·基础套餐",
+          "price": 18,
+          "quota": 100,
+          "spare": 70,
+          "effectiveUnit": 0.6
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "极速云·基础套餐",
+          "price": 18,
+          "quota": 100,
+          "spare": 0,
+          "effectiveUnit": 0.18
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "极速云·进阶套餐",
+          "price": 32,
+          "quota": 200,
+          "spare": 0,
+          "effectiveUnit": 0.16
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "极速云·旗舰套餐",
+          "price": 61,
+          "quota": 500,
+          "spare": 0,
+          "effectiveUnit": 0.122
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "极速云·尊享套餐",
+          "price": 122,
+          "quota": 1000,
+          "spare": 0,
+          "effectiveUnit": 0.122
+        }
+      ]
+    },
+    {
+      "id": "globalcloud",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "BGP 智能优化·入门方案",
+          "price": 20,
+          "quota": 120,
+          "spare": 90,
+          "effectiveUnit": 0.6666666666666666
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "BGP 智能优化·入门方案",
+          "price": 20,
+          "quota": 120,
+          "spare": 20,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "BGP 智能优化·进阶方案",
+          "price": 40,
+          "quota": 300,
+          "spare": 100,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "BGP 智能优化·高端方案",
+          "price": 100,
+          "quota": 700,
+          "spare": 200,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "BGP 智能优化·商业方案",
+          "price": 180,
+          "quota": 1500,
+          "spare": 500,
+          "effectiveUnit": 0.18
+        }
+      ]
+    },
+    {
+      "id": "guangnianti",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "光年梯 入门版",
+          "price": 18,
+          "quota": 110,
+          "spare": 80,
+          "effectiveUnit": 0.6
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "光年梯 入门版",
+          "price": 18,
+          "quota": 110,
+          "spare": 10,
+          "effectiveUnit": 0.18
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "光年梯 晋级版",
+          "price": 34,
+          "quota": 220,
+          "spare": 20,
+          "effectiveUnit": 0.17
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "光年梯 至尊版",
+          "price": 130,
+          "quota": 900,
+          "spare": 400,
+          "effectiveUnit": 0.26
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": null,
+          "price": null,
+          "quota": null,
+          "spare": null,
+          "effectiveUnit": null
+        }
+      ]
+    },
+    {
+      "id": "sogo",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "小包-月付版",
+          "price": 15,
+          "quota": 60,
+          "spare": 30,
+          "effectiveUnit": 0.5
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "基础版",
+          "price": 25,
+          "quota": 120,
+          "spare": 20,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "优选版",
+          "price": 45,
+          "quota": 250,
+          "spare": 50,
+          "effectiveUnit": 0.225
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "强化版",
+          "price": 80,
+          "quota": 500,
+          "spare": 0,
+          "effectiveUnit": 0.16
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "顶配版",
+          "price": 150,
+          "quota": 1000,
+          "spare": 0,
+          "effectiveUnit": 0.15
+        }
+      ]
+    },
+    {
+      "id": "yuzhou",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "星云月付小包",
+          "price": 12.5,
+          "quota": 50,
+          "spare": 20,
+          "effectiveUnit": 0.4166666666666667
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "行星基础版",
+          "price": 25,
+          "quota": 120,
+          "spare": 20,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "恒星标准版",
+          "price": 50,
+          "quota": 240,
+          "spare": 40,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "星系专业版",
+          "price": 100,
+          "quota": 500,
+          "spare": 0,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "寰宇旗舰版",
+          "price": 200,
+          "quota": 1000,
+          "spare": 0,
+          "effectiveUnit": 0.2
+        }
+      ]
+    },
+    {
+      "id": "2mao",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "月付小包",
+          "price": 13,
+          "quota": 60,
+          "spare": 30,
+          "effectiveUnit": 0.43333333333333335
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "白猫套餐",
+          "price": 20,
+          "quota": 130,
+          "spare": 30,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "橘猫畅玩版",
+          "price": 40,
+          "quota": 230,
+          "spare": 30,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "黑猫重度用户版",
+          "price": 160,
+          "quota": 850,
+          "spare": 350,
+          "effectiveUnit": 0.32
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": null,
+          "price": null,
+          "quota": null,
+          "spare": null,
+          "effectiveUnit": null
+        }
+      ]
+    },
+    {
+      "id": "1fly",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "轻享版",
+          "price": 20,
+          "quota": 150,
+          "spare": 120,
+          "effectiveUnit": 0.6666666666666666
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "轻享版",
+          "price": 20,
+          "quota": 150,
+          "spare": 50,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "舒享版",
+          "price": 35,
+          "quota": 350,
+          "spare": 150,
+          "effectiveUnit": 0.175
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "尊享版",
+          "price": 55,
+          "quota": 600,
+          "spare": 100,
+          "effectiveUnit": 0.11
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "极致版",
+          "price": 95,
+          "quota": 1200,
+          "spare": 200,
+          "effectiveUnit": 0.095
+        }
+      ]
+    },
+    {
+      "id": "edgenova",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "限时月付",
+          "price": 15,
+          "quota": 72,
+          "spare": 42,
+          "effectiveUnit": 0.5
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "极界·标准",
+          "price": 25,
+          "quota": 120,
+          "spare": 20,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "极界·进阶",
+          "price": 50,
+          "quota": 250,
+          "spare": 50,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "极界·高级",
+          "price": 100,
+          "quota": 500,
+          "spare": 0,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "极界·极限",
+          "price": 200,
+          "quota": 1000,
+          "spare": 0,
+          "effectiveUnit": 0.2
+        }
+      ]
+    },
+    {
+      "id": "kosing",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "月付小包",
+          "price": 15,
+          "quota": 60,
+          "spare": 30,
+          "effectiveUnit": 0.5
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "基础版",
+          "price": 25,
+          "quota": 150,
+          "spare": 50,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "标准版",
+          "price": 50,
+          "quota": 300,
+          "spare": 100,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "专业版",
+          "price": 100,
+          "quota": 600,
+          "spare": 100,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "旗舰版",
+          "price": 200,
+          "quota": 1200,
+          "spare": 200,
+          "effectiveUnit": 0.2
+        }
+      ]
+    },
+    {
+      "id": "sujie",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "极速版",
+          "price": 25,
+          "quota": 120,
+          "spare": 90,
+          "effectiveUnit": 0.8333333333333334
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "极速版",
+          "price": 25,
+          "quota": 120,
+          "spare": 20,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "超速版",
+          "price": 50,
+          "quota": 250,
+          "spare": 50,
+          "effectiveUnit": 0.25
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "光速版",
+          "price": 100,
+          "quota": 500,
+          "spare": 0,
+          "effectiveUnit": 0.2
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "跃迁版",
+          "price": 200,
+          "quota": 1000,
+          "spare": 0,
+          "effectiveUnit": 0.2
+        }
+      ]
+    },
+    {
+      "id": "kuaili",
+      "scenarios": [
+        {
+          "monthlyNeedGb": 30,
+          "plan": "月付小套餐",
+          "price": 15,
+          "quota": 50,
+          "spare": 20,
+          "effectiveUnit": 0.5
+        },
+        {
+          "monthlyNeedGb": 100,
+          "plan": "小狸基础版",
+          "price": 22,
+          "quota": 100,
+          "spare": 0,
+          "effectiveUnit": 0.22
+        },
+        {
+          "monthlyNeedGb": 200,
+          "plan": "灵狸标准版",
+          "price": 35,
+          "quota": 250,
+          "spare": 50,
+          "effectiveUnit": 0.175
+        },
+        {
+          "monthlyNeedGb": 500,
+          "plan": "夜狸强化版",
+          "price": 95,
+          "quota": 500,
+          "spare": 0,
+          "effectiveUnit": 0.19
+        },
+        {
+          "monthlyNeedGb": 1000,
+          "plan": "天狸顶配版",
+          "price": 180,
+          "quota": 1000,
+          "spare": 0,
+          "effectiveUnit": 0.18
+        }
+      ]
+    }
+  ]
+}

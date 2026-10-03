@@ -1,3 +1,5 @@
+import {quotaLabel,unitPrice} from '../assets/quota.js';
+import {researchArticleSection} from '../scripts/research.mjs';
 import fs from 'node:fs';
 const brands=JSON.parse(fs.readFileSync(new URL('./brands.json',import.meta.url),'utf8'));
 const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -234,7 +236,7 @@ const profileSpecs=[
 export const brandAnalyses=profileSpecs.map(([id,topic,flow,title,excerpt])=>({id:id+'-plan-analysis',topic,title,excerpt,brandIds:[id],kind:'brand',flow,date:'2026-10-03',related:['cost-per-gb','source-conflicts','checkout-checklist']}));
 export function brandAnalysisSections(a){
  const b=brands.find(b=>b.id===a.brandIds[0]);const monthly=b.plans.filter(p=>p.cycle==='月付').sort((x,y)=>x.price-y.price);const first=monthly[0],valid=monthly.filter(p=>p.gb!==null),fit=valid.filter(p=>p.gb>=a.flow)[0];const annual=b.plans.filter(p=>p.cycle==='年付'),once=b.plans.filter(p=>p.cycle==='一次性');
- const rows=b.plans.map(p=>`<tr><th scope="row">${E(p.name)}</th><td>¥${p.price}</td><td>${E(p.cycle)}</td><td>${p.gb===null?'待核验':p.gb+'GB'+(p.cycle==='一次性'?' 总量':'/月')}</td><td>${p.gb===null?'—':'¥'+(p.price/(p.cycle==='年付'?12:1)/p.gb).toFixed(3)}</td><td>${E(p.sourceDate)}</td></tr>`).join('');
+ const rows=b.plans.map(p=>`<tr><th scope="row">${E(p.name)}</th><td>¥${p.price}</td><td>${E(p.cycle)}</td><td>${E(quotaLabel(p))}</td><td>${unitPrice(p)===null?'—':'¥'+unitPrice(p).toFixed(3)}</td><td>${E(p.sourceDate)}</td></tr>`).join('');
  const changes=valid.slice(1).map((p,i)=>{const prev=valid[i],delta=p.gb-prev.gb;return `从 ${prev.name} 到 ${p.name}，每月付款增加 ${(p.price-prev.price).toFixed(2)} 元，标称流量增加 ${delta}GB。${delta>0?'新增标称容量对应的增量成本约为 '+((p.price-prev.price)/delta).toFixed(3)+' 元/GB':'容量没有增加，不能用常见的升级增量算法判断'}。`;});
  return [
  {heading:'这篇分析解决什么选择问题',paragraphs:[a.excerpt,`${b.summary} 本次只依据所收录的套餐金额、容量与付款结构作分析。参考月付起档 ${first.name} 为 ${first.price} 元，容量${first.gb===null?'仍待核验':'为 '+first.gb+'GB/月'}。最低档是价格入口，不等于满足所有需求的推荐档，也不能从起价推断使用速度。`,`${b.audience}。应先记录真实月用量、第一次可支付总额和所需客户端，再把这三项条件映射到各档。首次购买前仍需在当前购买页核对套餐是否在售。`]},
@@ -243,6 +245,7 @@ export function brandAnalysisSections(a){
  {heading:'升级多花的钱换来了什么标称容量',paragraphs:changes.length?[...changes,'增量计算帮助读者看清升级阶梯，却没有涵盖节点资源、客户端条件或其他权益。即使新增容量单价较低，实际用不到的额度也不会减少已经支付的金额。只有明确的额外条件才能说明档位间还有其他差异。']:['月付资料只有一个容量明确的档，无法形成可靠的升级增量表。先确认更多档位和条件，再讨论增加的费用换来多少容量；名称中的高级或旗舰不能代替具体数字。']},
  {heading:'年付与一次性包应该另外检查',paragraphs:[annual.length?`${b.name}收录了 ${annual.length} 个年付档，最低参考总额为 ${Math.min(...annual.map(p=>p.price))} 元/年。先确认每月容量是否满足需求，以及预付期内的重置、结转和退款规则。年价除十二是比较指标，不表示可按月付款。`:'本站暂未收录该品牌可比较的年付资料，这不证明官网一定不销售。没有原始说明时，不把月价乘十二生成虚构年套餐。',once.length?`资料还列出 ${once.length} 个一次性包。它们是一份总流量，不能自动理解为每月补充；购买前确认有效期、账号期限、不活跃条件和服务持续规则。对偶尔使用的人，预计用完月份比单 GB 排名更有参考价值。`:'本站暂未收录其一次性包。没有资料的计费方式不生成推荐，读者可在当前品牌购买页核对是否新增。']},
  {heading:'优惠、优势与资料疑点怎么读',paragraphs:[`公开资料所呈现的套餐优势包括：${b.advantage1}；${b.advantage2}。这些属于档位和支付结构，不是对节点可用性、AI 或影音场景的独立验证。线路资料记为 ${b.line}，同样需要明确来源与测试条件。`,`当前具体提示：${b.note} ${b.coupon?'站长提供优惠码 '+b.coupon+'，折扣、期限与适用周期未验证；输入后以结算金额为准。':'站长没有提供该品牌优惠码，不推断存在自动折扣。'} 阅读其他推荐时也应区分官网说明、第三方转述与实际测量。`]},
+ researchArticleSection(b),
  {heading:'来源与付款前的下一步',paragraphs:[`套餐来源为 ${b.sourceLabel}；本站查询于 2026-10-03，各档原始日期列在表中。品牌入口可以访问，但登录后官网现价尚未独立确认。先按当前订单复核，再考虑小额与短周期验证，不将本文视为服务质量保证。`],html:`<p><a href="${E(b.source)}" target="_blank" rel="noopener noreferrer">查看 ${E(b.name)} 原始第三方资料</a> · <a href="../../brands/${b.id}/#sources">查看品牌页核验边界</a> · <a href="../../brands/${b.id}/#coupon">查看品牌优惠码说明</a></p>`}
  ];
 }
