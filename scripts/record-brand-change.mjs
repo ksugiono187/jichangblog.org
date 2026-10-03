@@ -1,0 +1,15 @@
+import fs from 'node:fs';
+import {referenceChanges,snapshotPlans} from './brand-tools.mjs';
+const values=Object.fromEntries(process.argv.slice(2).map(s=>{const i=s.indexOf('=');return [s.slice(0,i).replace(/^--/,''),s.slice(i+1)];}));
+if(!values.brand||!/^\d{4}-\d{2}-\d{2}$/.test(values.date||'')||!values.note)throw Error('Supply --brand=ID --date=YYYY-MM-DD --note=source-based-reason; edit the reference data and source first.');
+const path=new URL('../data/brand-history.json',import.meta.url),history=JSON.parse(fs.readFileSync(path)),brands=JSON.parse(fs.readFileSync(new URL('../data/brands.json',import.meta.url))),b=brands.find(b=>b.id===values.brand),record=history.records.find(r=>r.brandId===values.brand);
+if(!b||!record)throw Error('Unknown brand');
+const latest=record.referenceSnapshots.at(-1);
+if(values.date<latest.date)throw Error('History cannot be backdated before the latest retained snapshot');
+if(JSON.stringify(snapshotPlans(latest.plans))===JSON.stringify(snapshotPlans(b.plans)))throw Error('No changed reference values; do not create a price-change entry');
+if(!/^https:\/\//.test(b.source))throw Error('Source URL required');
+const changes=referenceChanges(latest.plans,b.plans);
+if(!changes.length)throw Error('No changed reference values; do not append an empty change record');
+record.referenceSnapshots.push({date:values.date,reason:values.note,authority:'third-party-reference',source:b.source,sourceLabel:b.sourceLabel,sourceDate:b.plans[0].sourceDate,plans:structuredClone(b.plans)});
+fs.writeFileSync(path,JSON.stringify(history,null,2)+'\n');
+console.log(JSON.stringify({brand:b.id,date:values.date,changes,retainedSnapshots:record.referenceSnapshots.length,officialPriceVerified:false}));

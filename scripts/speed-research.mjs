@@ -2,6 +2,7 @@ import fs from 'node:fs';
 const data=JSON.parse(fs.readFileSync(new URL('../data/speed-research.json',import.meta.url),'utf8'));
 const E=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const labels={historical:'外部历史记录','attribution-caution':'品牌归属需再核对','date-uncertain':'日期不完整',incomplete:'测试条件不完整','supplier-image':'商家提供图证','image-only':'图证参考 · 未摘录速度','disputed-image':'图证有疑点 · 不采用数值','not-found':'未找到可采用的记录'};
+export function speedCardStatus(id){const r=data.records.find(r=>r.brandId===id);const brief={historical:'历史数值', 'attribution-caution':'归属需核对', 'date-uncertain':'日期不完整',incomplete:'条件待补', 'supplier-image':'商家图证', 'image-only':'仅图证参考', 'disputed-image':'图证未采用', 'not-found':'未找到可靠记录'};return brief[r.status]+(r.testDate?' · '+r.testDate.slice(5).replace('-','/'):'');}
 function table(r,name){
  if(!r.metrics.length)return '';
  let head,body,caption;
