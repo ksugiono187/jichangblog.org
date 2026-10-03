@@ -47,3 +47,9 @@ body{background-image:url('page-atmosphere.svg'),radial-gradient(ellipse at 0% 2
 .evidence-note{margin:22px 0;padding:24px;border:1px solid #38557c;border-radius:16px;background:linear-gradient(135deg,#152c48d9,#0d1929e8);overflow-wrap:anywhere}.evidence-note h3{margin:8px 0 14px}.evidence-environment{font-size:13px;color:#b6d9ff}.evidence-note p{line-height:1.9}.research-cost-table td small{display:block;margin-top:5px}.research-cost-table th,.research-cost-table td{white-space:normal}.research-cost-table{min-width:580px}#cost-analysis,#evidence{scroll-margin-top:120px}@media(max-width:760px){.evidence-note{padding:19px 17px}.evidence-note h3{font-size:20px}.evidence-note .inline-links{gap:14px}}
 
 #cost-analysis li small{display:block;color:#a8bfdc;font-size:12px;margin:5px 0 15px;line-height:1.7}
+
+.official-evidence,.coupon-review-note{padding:20px;border:1px solid #385a84;border-radius:14px;background:#14284280;margin:18px 0}.official-evidence h3,.coupon-review-note h3{font-size:20px;margin:0 0 15px}.coupon-review-note p{font-size:14px;line-height:1.9}.coupon-review-note li{font-size:13px;margin:12px 0;overflow-wrap:anywhere}.official-review-overview{scroll-margin-top:130px}.official-review-overview table{min-width:760px}.coupon-history-heading{font-size:20px}
+
+.coupon-condition-hint{font-size:14px;line-height:1.8;overflow-wrap:anywhere}.coupon-condition-hint a{display:inline-flex;align-items:center;min-height:44px;color:#aed3ff}.attribution-hint{font-size:13px;color:#ffdc98;border-left:2px solid #d5ad62;padding-left:10px;line-height:1.8}
+
+.coupon-review-note{scroll-margin-top:130px}.official-evidence{overflow-wrap:anywhere}

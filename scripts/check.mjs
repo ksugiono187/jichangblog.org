@@ -41,3 +41,5 @@ await import('./check-reader.mjs');
 await import('./check-metadata.mjs');
 
 await import('./check-research.mjs');
+
+await import('./check-official-review.mjs');

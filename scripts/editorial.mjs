@@ -22,7 +22,7 @@ export function brandReading(id,d=2){const list=articles.filter(a=>a.brandIds.in
 function brandLinks(ids,brands,d){return `<div class="brand-reading">${ids.map(id=>{const b=brands.find(b=>b.id===id);const p=b.plans.filter(p=>p.cycle==='月付').sort((a,b)=>a.price-b.price)[0];return `<a href="${prefix(d)}brands/${b.id}/"><strong>${E(b.name)}</strong><span>参考月付 ¥${p.price} 起 · ${p.gb??'流量待核验'}${p.gb?'GB':''}</span><small>查看套餐、优惠码与来源 ↗</small></a>`;}).join('')}</div>`;}
 function comparisonSections(a,brands){
  const bs=a.ids.map(id=>brands.find(b=>b.id===id));
- const enough=b=>b.plans.filter(p=>p.cycle==='月付'&&p.gb!==null&&p.gb>=a.flow).sort((x,y)=>x.price-y.price)[0];
+ const enough=b=>b.planAttribution==='disputed'?null:b.plans.filter(p=>p.cycle==='月付'&&p.gb!==null&&p.gb>=a.flow).sort((x,y)=>x.price-y.price)[0];
  const ps=bs.map(enough);
  const rows=bs.map((b,i)=>{const p=ps[i];return `<tr><th scope="row"><a href="../../brands/${b.id}/">${E(b.name)}</a></th>${p?`<td>${E(p.name)}</td><td>¥${p.price}/月</td><td>${p.gb}GB/月</td><td>¥${(p.price/p.gb).toFixed(3)}</td><td>${p.gb-a.flow}GB</td>`:'<td colspan="5">所录月包未找到满足此用量且容量明确的档位</td>'}</tr>`;}).join('');
  const cash=ps.every(Boolean)?`按照月用量 ${a.flow}GB 这一假设，${bs[0].name}的最低匹配档为 ${ps[0].name}，月付 ${ps[0].price} 元；${bs[1].name}为 ${ps[1].name}，月付 ${ps[1].price} 元。两档每月支出相差 ${Math.abs(ps[0].price-ps[1].price).toFixed(2)} 元，标称容量相差 ${Math.abs(ps[0].gb-ps[1].gb)}GB。差额只反映套餐结构，无法证明速度、稳定性或平台可用性。`:'部分档位缺少容量或没有合适月包，不能直接给出同用量下的最低月成本。先补充购买页资料，再作比较。';
