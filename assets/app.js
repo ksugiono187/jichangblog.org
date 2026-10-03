@@ -1,7 +1,23 @@
 (()=>{'use strict';
 const toast=document.querySelector('.toast');let timer;
 function inform(message){toast.textContent=message;toast.classList.add('visible');clearTimeout(timer);timer=setTimeout(()=>toast.classList.remove('visible'),2600);}
-document.querySelectorAll('[data-copy]').forEach(button=>button.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(button.dataset.copy);inform(button.dataset.copyKind==='email'?'商务邮箱已复制。':'优惠码已复制，请在结算页确认折扣。');}catch{inform(button.dataset.copyKind==='email'?'未能自动复制，请手动选择邮箱地址。':'未能自动复制，请手动选择优惠码。');}}));
+async function copyText(value){
+ try{if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(value);return true;}}catch{}
+ const field=document.createElement('textarea'),active=document.activeElement;field.value=value;field.readOnly=true;field.style.cssText='position:fixed;top:0;left:0;opacity:0;pointer-events:none';document.body.appendChild(field);field.select();let copied=false;
+ try{copied=document.execCommand('copy');}catch{}finally{field.remove();active?.focus({preventScroll:true});}return copied;
+}
+function manualCopy(value,email){
+ let dialog=document.querySelector('#manual-copy');if(!dialog){dialog=document.createElement('dialog');dialog.id='manual-copy';dialog.className='manual-copy';dialog.innerHTML='<h2>手动复制</h2><p>浏览器暂时无法自动复制。长按下方文字，或按 Ctrl+C / ⌘C 复制。</p><input readonly aria-label="待复制内容"><form method="dialog"><button class="button secondary">关闭</button></form>';document.body.appendChild(dialog);}
+ dialog.querySelector('h2').textContent=email?'复制商务邮箱':'复制优惠码';const field=dialog.querySelector('input');field.value=value;dialog.showModal();field.focus();field.select();
+}
+document.querySelectorAll('[data-copy]').forEach(button=>{
+ const label=button.querySelector('.copy-label')||button,original=label.textContent;let reset;
+ button.addEventListener('click',async()=>{const email=button.dataset.copyKind==='email';if(await copyText(button.dataset.copy)){clearTimeout(reset);label.textContent='已复制';button.dataset.copyState='copied';inform(email?'商务邮箱已复制。':'优惠码已复制，请在结算页确认折扣。');reset=setTimeout(()=>{label.textContent=original;delete button.dataset.copyState;},2800);}else manualCopy(button.dataset.copy,email);});
+});
+const header=document.querySelector('.header');if(document.querySelector('.brand-browser')&&header){document.documentElement.classList.add('brand-reader');const measure=()=>document.documentElement.style.setProperty('--header-height',header.getBoundingClientRect().height+'px');measure();if(typeof ResizeObserver!=='undefined')new ResizeObserver(measure).observe(header);}
+document.querySelectorAll('.brand-switcher').forEach(picker=>picker.addEventListener('toggle',()=>{if(picker.open){document.querySelectorAll('.brand-switcher').forEach(other=>{if(other!==picker)other.open=false;});const menu=picker.querySelector('.brand-jump-menu');menu.style.maxHeight=Math.max(100,Math.min(430,window.innerHeight-menu.getBoundingClientRect().top-(window.matchMedia('(max-width:760px)').matches?84:20)))+'px';}}));
+document.addEventListener('click',event=>{document.querySelectorAll('.brand-switcher[open]').forEach(picker=>{if(!picker.contains(event.target))picker.open=false;});});
+document.addEventListener('keydown',event=>{if(event.key==='Escape')document.querySelectorAll('.brand-switcher[open]').forEach(picker=>{picker.open=false;picker.querySelector('summary').focus();});});
 const input=document.querySelector('#brand-search'),cards=[...document.querySelectorAll('[data-brand]')],filters=[...document.querySelectorAll('[data-filter]')];let filter='all';
 function apply(){let count=0;for(const c of cards){const nameMatch=c.dataset.brand.toLowerCase().includes((input?.value||'').trim().toLowerCase());const match=filter==='all'||filter==='budget'&&Number(c.dataset.price)<=20||filter==='flow'&&Number(c.dataset.flow)>=150||filter==='time'&&c.dataset.time==='true';c.hidden=!(nameMatch&&match);if(!c.hidden)count++;}const label=document.querySelector('#results-label');if(label)label.textContent=`展示 ${count} 个品牌 · 参考价格，未独立确认当前在售`;const empty=document.querySelector('.empty');if(empty)empty.hidden=count!==0;}
 input?.addEventListener('input',apply);filters.forEach(button=>button.addEventListener('click',()=>{filter=button.dataset.filter;filters.forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});apply();}));

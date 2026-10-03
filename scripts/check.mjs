@@ -22,3 +22,16 @@ console.log(`PASS: ${files.length} pages; ${articles.length} articles, ${topics.
 assert.equal(new Set(articles.map(a=>a.id)).size,articles.length);assert.equal(new Set(topics.map(t=>t.id)).size,topics.length);for(const t of topics)assert(articles.filter(a=>a.topic===t.id).length>=3,'Too few articles for topic '+t.id);
 
 await import('./check-selector.mjs');
+
+// Ensure coupon actions and direct brand navigation are present in shipped HTML.
+assert.equal((home.match(/class="copy card-copy"/g)||[]).length,11);
+for(let i=0;i<brands.length;i++){
+ const b=brands[i],html=fs.readFileSync(path.join(dist,'brands',b.id,'index.html'),'utf8');
+ const previous=brands[(i+27)%28],next=brands[(i+1)%28];
+ assert(html.includes('data-brand-previous href="../'+previous.id+'/"'));
+ assert(html.includes('data-brand-next href="../'+next.id+'/"'));
+ const menus=[...html.matchAll(/<nav class="brand-jump-menu"[\s\S]*?<\/nav>/g)];assert.equal(menus.length,2);
+ for(const menu of menus){assert.equal((menu[0].match(/href="\.\.\/[a-z0-9-]+\/"/g)||[]).length,28);for(const target of brands)assert(menu[0].includes('href="../'+target.id+'/"'));}
+ if(b.coupon)assert(home.includes('data-copy="'+b.coupon+'"'));
+}
+console.log('PASS: 11 homepage copy actions; all 28 brands have previous/next links and complete directories.');
