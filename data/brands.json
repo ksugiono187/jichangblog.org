@@ -1,0 +1,2046 @@
+[
+  {
+    "id": "breezenet",
+    "name": "微风网络",
+    "english": "Breezenet",
+    "url": "https://edp01.breezenetaff.com/#/?code=4KDOroY0",
+    "coupon": "weifeng90",
+    "tag": "均衡流量",
+    "summary": "200GB 起的月付方案，兼顾日常访问与影音用量。",
+    "advantage1": "月付 200GB、500GB、1200GB 梯度清楚",
+    "advantage2": "资料同时列有年付小包与一次性包",
+    "audience": "希望按实际用量逐步升级的用户",
+    "line": "IEPL / IPLC（资料口径）",
+    "plans": [
+      {
+        "name": "清风 Breeze",
+        "price": 137.0,
+        "cycle": "年付",
+        "gb": 100,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "乘风 Riding",
+        "price": 27.0,
+        "cycle": "月付",
+        "gb": 200,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "破风 Breaking",
+        "price": 57.0,
+        "cycle": "月付",
+        "gb": 500,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "御风 Mastery",
+        "price": 127.0,
+        "cycle": "月付",
+        "gb": 1200,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "信风·不限时",
+        "price": 200.0,
+        "cycle": "一次性",
+        "gb": 270,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "长风·不限时",
+        "price": 370.0,
+        "cycle": "一次性",
+        "gb": 570,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-08"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/breezenet/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "套餐与线路来自第三方公开资料，当前售价、设备限制和服务条款需在官网确认。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "站长提供，尚未结算验证"
+  },
+  {
+    "id": "flycat",
+    "name": "飞猫云",
+    "english": "FlyCat",
+    "url": "https://flycat1.flycatvipaff.cc/#/?code=Os3T3OxW",
+    "coupon": "flycat888",
+    "tag": "套餐灵活",
+    "summary": "从学生年包到 1TB 月付，流量跨度较大。",
+    "advantage1": "50GB 年包适合轻度需求比较",
+    "advantage2": "150GB 至 1000GB 月付可逐档选择",
+    "audience": "用量从轻度到重度、希望保留升级空间的用户",
+    "line": "IEPL（资料口径）",
+    "plans": [
+      {
+        "name": "学生版",
+        "price": 84.0,
+        "cycle": "年付",
+        "gb": 50,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "星耀版",
+        "price": 25.0,
+        "cycle": "月付",
+        "gb": 150,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "星环版",
+        "price": 45.0,
+        "cycle": "月付",
+        "gb": 300,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "银河版",
+        "price": 85.0,
+        "cycle": "月付",
+        "gb": 600,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "宇宙版",
+        "price": 150.0,
+        "cycle": "月付",
+        "gb": 1000,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "不限时",
+        "price": 680.0,
+        "cycle": "一次性",
+        "gb": 1000,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-09"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/flycat/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "套餐与线路来自第三方公开资料，当前售价、设备限制和服务条款需在官网确认。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "站长提供，尚未结算验证"
+  },
+  {
+    "id": "twilight",
+    "name": "暮光网络",
+    "english": "Twilight",
+    "url": "https://varnexa.twilightaff.com/#/?code=3qqonTlH",
+    "coupon": null,
+    "tag": "周期与按量",
+    "summary": "月付与一次性流量包并列，适合先比较自己的使用频率。",
+    "advantage1": "120GB 月付门槛较低",
+    "advantage2": "150GB、400GB、800GB 按量包可供比较",
+    "audience": "使用频率不固定、想比较不同计费方式的用户",
+    "line": "线路类型待核验",
+    "plans": [
+      {
+        "name": "暮光·基础版",
+        "price": 20.0,
+        "cycle": "月付",
+        "gb": 120,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "暮光·标准版",
+        "price": 40.0,
+        "cycle": "月付",
+        "gb": 240,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "暮光·旗舰版",
+        "price": 100.0,
+        "cycle": "月付",
+        "gb": 700,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "暮光·至尊版",
+        "price": 180.0,
+        "cycle": "月付",
+        "gb": 1500,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "暮光·年付轻量版",
+        "price": 109.0,
+        "cycle": "年付",
+        "gb": 70,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "暮光·不限时轻量包",
+        "price": 219.0,
+        "cycle": "一次性",
+        "gb": 150,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "暮光·不限时标准包",
+        "price": 529.0,
+        "cycle": "一次性",
+        "gb": 400,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "暮光·不限时大容量包",
+        "price": 959.0,
+        "cycle": "一次性",
+        "gb": 800,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-08"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/twilight/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "标准版流量有 240GB 与 300GB 两种资料；本文保留当前来源的 240GB，购买前复核。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "未提供优惠码"
+  },
+  {
+    "id": "worryfree",
+    "name": "无忧链接",
+    "english": "WorryFree",
+    "url": "https://wep01.worryfreeaff.com/#/?code=56A0RTpU",
+    "coupon": "wuyou666",
+    "tag": "轻量预算",
+    "summary": "低总价年包与百 GB 月付并存，轻度用户可重点比较。",
+    "advantage1": "40GB 年包降低轻度使用成本",
+    "advantage2": "100GB 至 1000GB 月付梯度完整",
+    "audience": "月用量不大、预算优先的用户",
+    "line": "IPLC（资料口径）",
+    "plans": [
+      {
+        "name": "MINI链接",
+        "price": 79.0,
+        "cycle": "年付",
+        "gb": 40,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "舒心链接",
+        "price": 19.0,
+        "cycle": "月付",
+        "gb": 100,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "省心链接",
+        "price": 33.0,
+        "cycle": "月付",
+        "gb": 200,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "随心链接",
+        "price": 77.0,
+        "cycle": "月付",
+        "gb": 500,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "忘忧链接",
+        "price": 117.0,
+        "cycle": "月付",
+        "gb": 1000,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "100G永久不限时 无忧链接",
+        "price": 108.0,
+        "cycle": "一次性",
+        "gb": 100,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "300G永久不限时 无忧链接",
+        "price": 298.0,
+        "cycle": "一次性",
+        "gb": 300,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-08"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/worryfree/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "一次性包存在 98/108 元和 288/298 元两个版本；本文记录当前来源的 108/298 元。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "站长提供，尚未结算验证"
+  },
+  {
+    "id": "civet",
+    "name": "灵猫",
+    "english": "Civet",
+    "url": "https://vip02.civetaff.com/#/?code=kZlRw46w",
+    "coupon": null,
+    "tag": "小包起步",
+    "summary": "45GB 年包与两档月付，套餐结构容易理解。",
+    "advantage1": "150GB、300GB 两个常规月付档",
+    "advantage2": "年付小包可作为轻度需求候选",
+    "audience": "每月几十到几百 GB、偏好简单套餐的用户",
+    "line": "线路类型待核验",
+    "plans": [
+      {
+        "name": "灵猫·年付小包",
+        "price": 85.0,
+        "cycle": "年付",
+        "gb": 45,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "灵猫·年付Small",
+        "price": 195.0,
+        "cycle": "年付",
+        "gb": 150,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "灵猫·年付Big",
+        "price": 295.0,
+        "cycle": "年付",
+        "gb": 300,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "灵猫·月付Small",
+        "price": 25.0,
+        "cycle": "月付",
+        "gb": 150,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "灵猫·月付Big",
+        "price": 45.0,
+        "cycle": "月付",
+        "gb": 300,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/civet/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "套餐与线路来自第三方公开资料，当前售价、设备限制和服务条款需在官网确认。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "未提供优惠码"
+  },
+  {
+    "id": "flashleap",
+    "name": "闪跃",
+    "english": "FlashLeap",
+    "url": "https://vip02.flashleapaff.com/#/?code=FkCGEeaC",
+    "coupon": "shanyue",
+    "tag": "中等用量",
+    "summary": "150GB 到 1000GB 月付，按容量选择相对直接。",
+    "advantage1": "24 元 150GB 月付可先小额体验",
+    "advantage2": "300GB、600GB、1000GB 升级跨度明确",
+    "audience": "月用量在 150GB 以上的用户",
+    "line": "IPLC（资料口径）",
+    "plans": [
+      {
+        "name": "闪跃年付版",
+        "price": 96.0,
+        "cycle": "年付",
+        "gb": 60,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "闪动 Flicker",
+        "price": 24.0,
+        "cycle": "月付",
+        "gb": 150,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "飞跃 Leap",
+        "price": 44.0,
+        "cycle": "月付",
+        "gb": 300,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "瞬移 Teleport",
+        "price": 84.0,
+        "cycle": "月付",
+        "gb": 600,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "跃迁 Warp",
+        "price": 134.0,
+        "cycle": "月付",
+        "gb": 1000,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/flashleap/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "套餐与线路来自第三方公开资料，当前售价、设备限制和服务条款需在官网确认。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "站长提供，尚未结算验证"
+  },
+  {
+    "id": "firefly",
+    "name": "Firefly机场",
+    "english": "Firefly",
+    "url": "https://vip02.fireflyaff.com/#/?code=Fes6j9rn",
+    "coupon": "firefly",
+    "tag": "梯度清晰",
+    "summary": "年付小包、常规月付与按量包覆盖不同频率。",
+    "advantage1": "150GB 起的常规月付档",
+    "advantage2": "资料列有 100GB 一次性流量包",
+    "audience": "需要月付与按量方案一起比较的用户",
+    "line": "IPLC（资料口径）",
+    "plans": [
+      {
+        "name": "Firefly年付版",
+        "price": 96.0,
+        "cycle": "年付",
+        "gb": 60,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "Firefly Lite",
+        "price": 25.0,
+        "cycle": "月付",
+        "gb": 150,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "Firefly Plus",
+        "price": 45.0,
+        "cycle": "月付",
+        "gb": 300,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "Firefly Blaze",
+        "price": 85.0,
+        "cycle": "月付",
+        "gb": 600,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "Firefly Nova",
+        "price": 150.0,
+        "cycle": "月付",
+        "gb": 1000,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "Firefly不限时",
+        "price": 100.0,
+        "cycle": "一次性",
+        "gb": 100,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-08"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/firefly/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "套餐与线路来自第三方公开资料，当前售价、设备限制和服务条款需在官网确认。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "站长提供，尚未结算验证"
+  },
+  {
+    "id": "kuajie",
+    "name": "跨界云",
+    "english": "KuaJie",
+    "url": "https://vip02.kuajieaff.com/#/?code=VfWeYwHM",
+    "coupon": null,
+    "tag": "大流量候选",
+    "summary": "最高参考档为 1800GB/月，大用量可重点核算。",
+    "advantage1": "120GB 至 1800GB 月付覆盖面较宽",
+    "advantage2": "高档位的单位流量成本相对更低",
+    "audience": "每月数百 GB 以上且流量能用完的用户",
+    "line": "IPLC（资料口径）",
+    "plans": [
+      {
+        "name": "跨界年付版",
+        "price": 96.0,
+        "cycle": "年付",
+        "gb": 60,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "轻云 Lite",
+        "price": 20.0,
+        "cycle": "月付",
+        "gb": 120,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "跃云 Leap",
+        "price": 40.0,
+        "cycle": "月付",
+        "gb": 330,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "凌云 Soar",
+        "price": 90.0,
+        "cycle": "月付",
+        "gb": 830,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "无界 Infinity",
+        "price": 130.0,
+        "cycle": "月付",
+        "gb": 1800,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/kuajie/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "套餐与线路来自第三方公开资料，当前售价、设备限制和服务条款需在官网确认。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "未提供优惠码"
+  },
+  {
+    "id": "flyv",
+    "name": "飞V",
+    "english": "FlyV",
+    "url": "https://varnexa.flyvaff.com/#/?code=UoU2Izm5",
+    "coupon": null,
+    "tag": "大容量分档",
+    "summary": "150GB、380GB、800GB 等档位，适合按月用量筛选。",
+    "advantage1": "380GB 中档补充入门与高端之间的选择",
+    "advantage2": "资料列有单次流量包",
+    "audience": "月用量在 150GB 至 800GB 的用户",
+    "line": "IEPL（资料口径）",
+    "plans": [
+      {
+        "name": "FlyV 会员·入门方案",
+        "price": 25.0,
+        "cycle": "月付",
+        "gb": 150,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "FlyV 会员·进阶方案",
+        "price": 50.0,
+        "cycle": "月付",
+        "gb": 380,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "FlyV 会员·高端方案",
+        "price": 110.0,
+        "cycle": "月付",
+        "gb": 800,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "FlyV 会员·商业方案",
+        "price": 190.0,
+        "cycle": "月付",
+        "gb": 1843,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "FlyV 会员·年付标准轻量版",
+        "price": 99.0,
+        "cycle": "年付",
+        "gb": 65,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "FlyV 会员·单次轻量版·小流量包",
+        "price": 189.0,
+        "cycle": "一次性",
+        "gb": 130,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "FlyV 会员·单次轻量版·标准流量包",
+        "price": 479.0,
+        "cycle": "一次性",
+        "gb": 380,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "FlyV 会员·单次轻量版·精英流量包",
+        "price": 799.0,
+        "cycle": "一次性",
+        "gb": 600,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/flyv/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "来源简介称流量被遮挡，表格却有数值；容量可信度有限，需官网复核。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "未提供优惠码"
+  },
+  {
+    "id": "laddercloud",
+    "name": "梯子云",
+    "english": "LadderCloud",
+    "url": "https://varnexa.ladderaff.com/#/?code=kuE4kqxo",
+    "coupon": null,
+    "tag": "计费方式多",
+    "summary": "年付保活、常规月付和不限时包，适合比较支出节奏。",
+    "advantage1": "125GB 入门与 350GB 进阶可供比较",
+    "advantage2": "资料列有 120GB、350GB、700GB 一次性包",
+    "audience": "偏好灵活计费、希望先月付的用户",
+    "line": "IEPL（资料口径）",
+    "plans": [
+      {
+        "name": "初阶网络·基础视界",
+        "price": 25.0,
+        "cycle": "月付",
+        "gb": 125,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "中阶加速·极清多线",
+        "price": 60.0,
+        "cycle": "月付",
+        "gb": 350,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "高阶专线·全球智联",
+        "price": 110.0,
+        "cycle": "月付",
+        "gb": 750,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "顶阶商业·全球骨干",
+        "price": 190.0,
+        "cycle": "月付",
+        "gb": 1600,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "天梯随行·年度保活方案",
+        "price": 89.0,
+        "cycle": "年付",
+        "gb": 60,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "云端买断·永不限时轻量包",
+        "price": 169.0,
+        "cycle": "一次性",
+        "gb": 120,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "云端买断·永不限时标准包",
+        "price": 449.0,
+        "cycle": "一次性",
+        "gb": 350,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "云端买断·永不限时精英包",
+        "price": 849.0,
+        "cycle": "一次性",
+        "gb": 700,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-08"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/laddercloud/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "套餐与线路来自第三方公开资料，当前售价、设备限制和服务条款需在官网确认。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "未提供优惠码"
+  },
+  {
+    "id": "wavenet",
+    "name": "浪网",
+    "english": "WaveNet",
+    "url": "https://varnexa.wavenetaff.com/#/?code=oU77JXen",
+    "coupon": null,
+    "tag": "高容量参考",
+    "summary": "参考档位延伸到 2000GB/月，适合大用量预算比较。",
+    "advantage1": "450GB、800GB 与 2000GB 档可供比较",
+    "advantage2": "资料含年付小包与单次流量包",
+    "audience": "能确定每月大流量需求的用户",
+    "line": "线路类型存在资料分歧",
+    "plans": [
+      {
+        "name": "浪网 高端",
+        "price": 120.0,
+        "cycle": "月付",
+        "gb": 800,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "浪网 商业",
+        "price": 200.0,
+        "cycle": "月付",
+        "gb": 2000,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "浪网 年付标准",
+        "price": 119.0,
+        "cycle": "年付",
+        "gb": 80,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "浪网 小流量包",
+        "price": 239.0,
+        "cycle": "一次性",
+        "gb": 180,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "浪网 标准流量包",
+        "price": 569.0,
+        "cycle": "一次性",
+        "gb": 450,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "浪网 精英流量包",
+        "price": 1099.0,
+        "cycle": "一次性",
+        "gb": 900,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "浪网 进阶",
+        "price": 70.0,
+        "cycle": "月付",
+        "gb": 450,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "浪网 入门",
+        "price": 30.0,
+        "cycle": "月付",
+        "gb": null,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/wavenet/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "入门档流量在来源中标为待核验，保留为空；不能据此计算入门单 GB 成本。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "未提供优惠码"
+  },
+  {
+    "id": "lingdong",
+    "name": "灵动云",
+    "english": "LingDong",
+    "url": "https://varnexa.lingdongaff.com/#/?code=QcRK6OPG",
+    "coupon": null,
+    "tag": "按量与周期",
+    "summary": "常规月付与单次流量包同时提供，适合比较不规律用量。",
+    "advantage1": "100GB 入门到 1500GB 高档跨度较宽",
+    "advantage2": "资料列有 150GB 至 800GB 单次包",
+    "audience": "需要月付主力与按量备用方案的用户",
+    "line": "IEPL / IPLC（资料有分歧）",
+    "plans": [
+      {
+        "name": "灵动·拂风",
+        "price": 20.0,
+        "cycle": "月付",
+        "gb": 100,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "灵动·驭浪",
+        "price": 50.0,
+        "cycle": "月付",
+        "gb": 300,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "灵动·破晓",
+        "price": 100.0,
+        "cycle": "月付",
+        "gb": 700,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "灵动·凌霄",
+        "price": 180.0,
+        "cycle": "月付",
+        "gb": 1500,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "灵动·穿云",
+        "price": 99.0,
+        "cycle": "年付",
+        "gb": 70,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "灵动·闲云（小流量包）",
+        "price": 199.0,
+        "cycle": "一次性",
+        "gb": 150,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "灵动·惊云（标准流量包）",
+        "price": 499.0,
+        "cycle": "一次性",
+        "gb": 400,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "灵动·飞云（精英流量包）",
+        "price": 899.0,
+        "cycle": "一次性",
+        "gb": 800,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/lingdong/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "套餐与线路来自第三方公开资料，当前售价、设备限制和服务条款需在官网确认。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "未提供优惠码"
+  },
+  {
+    "id": "invisible",
+    "name": "隐形人",
+    "english": "Invisible",
+    "url": "https://varnexa.invisibleaff.com/#/?code=JF4seZUy",
+    "coupon": null,
+    "tag": "中档容量",
+    "summary": "144GB 与 360GB 等档位，给中等用量更多选择。",
+    "advantage1": "360GB 月付比入门档容量更宽裕",
+    "advantage2": "资料列有多档单次流量包",
+    "audience": "月用量约 150GB 至 400GB 的用户",
+    "line": "线路类型待核验",
+    "plans": [
+      {
+        "name": "隐形人 白银纪元",
+        "price": 24.0,
+        "cycle": "月付",
+        "gb": 144,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "隐形人 黄金序列",
+        "price": 48.0,
+        "cycle": "月付",
+        "gb": 360,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "隐形人 铂金至臻",
+        "price": 105.0,
+        "cycle": "月付",
+        "gb": 750,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "隐形人 钻石穹顶",
+        "price": 185.0,
+        "cycle": "月付",
+        "gb": 1500,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "星耀风暴 365天不熄",
+        "price": 109.0,
+        "cycle": "年付",
+        "gb": 80,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "一次性小流量",
+        "price": 229.0,
+        "cycle": "一次性",
+        "gb": 160,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "一次性标准流量包",
+        "price": 549.0,
+        "cycle": "一次性",
+        "gb": 420,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      },
+      {
+        "name": "一次性精英流量包",
+        "price": 1199.0,
+        "cycle": "一次性",
+        "gb": 1000,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-08"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/invisible/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "套餐与线路来自第三方公开资料，当前售价、设备限制和服务条款需在官网确认。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "未提供优惠码"
+  },
+  {
+    "id": "stardream",
+    "name": "星岛梦",
+    "english": "StarDream",
+    "url": "https://kfccbb.xingdaomeng.com/#/?code=JTRIWFim",
+    "coupon": "nmw888",
+    "tag": "多种周期",
+    "summary": "60GB 年包与 150GB 起月付，适合不同使用频率。",
+    "advantage1": "150GB、300GB、500GB、1000GB 月付",
+    "advantage2": "资料列有小额一次性流量包",
+    "audience": "希望兼顾轻量备用和日常主力的用户",
+    "line": "IEPL（资料口径）",
+    "plans": [
+      {
+        "name": "贴心小包",
+        "price": 96.0,
+        "cycle": "年付",
+        "gb": 60,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "超量150G",
+        "price": 25.0,
+        "cycle": "月付",
+        "gb": 150,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "进阶300G",
+        "price": 50.0,
+        "cycle": "月付",
+        "gb": 300,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "闪光500G",
+        "price": 70.0,
+        "cycle": "月付",
+        "gb": 500,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "旗舰1T",
+        "price": 130.0,
+        "cycle": "月付",
+        "gb": 1000,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "不限时买断 100G",
+        "price": 100.0,
+        "cycle": "一次性",
+        "gb": 100,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "不限时买断 300G",
+        "price": 300.0,
+        "cycle": "一次性",
+        "gb": 300,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-09"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/xingdaomeng/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "来源的 1TB 一次性包同时出现 500GB 备注，本页不收录该冲突档位。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "站长提供，尚未结算验证"
+  },
+  {
+    "id": "lightspeed",
+    "name": "光速云",
+    "english": "LightSpeed",
+    "url": "https://mdlky.gsyaff.com/#/?code=6tRWbtgK",
+    "coupon": "jichangcha09",
+    "tag": "分档细致",
+    "summary": "110GB、220GB、450GB、900GB 逐档递增。",
+    "advantage1": "参考月付 17 元起，预算门槛较低",
+    "advantage2": "提供小流量年包与一次性包的资料",
+    "audience": "希望在百 GB 容量附近细分预算的用户",
+    "line": "IEPL / IPLC（资料有分歧）",
+    "plans": [
+      {
+        "name": "光速云·轻量版",
+        "price": 99.0,
+        "cycle": "年付",
+        "gb": 59,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "光速云·极速版",
+        "price": 17.0,
+        "cycle": "月付",
+        "gb": 110,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "光速云·流光版",
+        "price": 34.0,
+        "cycle": "月付",
+        "gb": 220,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "光速云·量子版",
+        "price": 68.0,
+        "cycle": "月付",
+        "gb": 450,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "光速云·无界版",
+        "price": 130.0,
+        "cycle": "月付",
+        "gb": 900,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "光速云·不限时套餐",
+        "price": 680.0,
+        "cycle": "一次性",
+        "gb": 1000,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-09"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/guangsuyun/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "入门月付有 17 元/110GB 与 23 元/148GB 两种版本；本文记录当前来源版本。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "站长提供，尚未结算验证"
+  },
+  {
+    "id": "v2yun",
+    "name": "唯兔云（V2云）",
+    "english": "V2Yun",
+    "url": "https://fast.v2yunvipaff.com/#/?code=xYEe8gyb",
+    "coupon": "rabbit",
+    "tag": "低预算候选",
+    "summary": "普通版 19.9 元月付与小流量年包，适合预算比较。",
+    "advantage1": "150GB 月付档单位成本可计算",
+    "advantage2": "另列 100GB、200GB、500GB 按量包",
+    "audience": "低预算、想从 150GB 月付开始的用户",
+    "line": "IPLC（资料口径）",
+    "plans": [
+      {
+        "name": "唯兔云·年付加强专线",
+        "price": 120.0,
+        "cycle": "年付",
+        "gb": 75,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "唯兔云·年付版限量款",
+        "price": 79.9,
+        "cycle": "年付",
+        "gb": 45,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "唯兔云·普通版",
+        "price": 19.9,
+        "cycle": "月付",
+        "gb": 150,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "唯兔云·进阶版",
+        "price": 29.9,
+        "cycle": "月付",
+        "gb": 200,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "唯兔云·专业版",
+        "price": 59.9,
+        "cycle": "月付",
+        "gb": 500,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "唯兔云·至尊版",
+        "price": 119.9,
+        "cycle": "月付",
+        "gb": 1000,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "唯兔云·永久不限时",
+        "price": 100.0,
+        "cycle": "一次性",
+        "gb": 100,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "唯兔云·永久不限时",
+        "price": 160.0,
+        "cycle": "一次性",
+        "gb": 200,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-09"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/v2/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "14.9 元活动包的付款周期、至尊版 1TB/1.4TB 存在分歧；活动包暂不参加月付比较。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "站长提供，尚未结算验证"
+  },
+  {
+    "id": "u1s1",
+    "name": "U1S1（有一说一）",
+    "english": "U1S1",
+    "url": "https://pkdj7.vipaff.cc/#/?code=NMjmHbvu",
+    "coupon": "U1S1",
+    "tag": "常规梯度",
+    "summary": "120GB、300GB、700GB、1500GB 月付容量层级明确。",
+    "advantage1": "20 元 120GB 月付可先比较",
+    "advantage2": "60GB 年付小包补充轻度需求",
+    "audience": "月用量从百 GB 到 TB 级的用户",
+    "line": "IEPL（资料口径）",
+    "plans": [
+      {
+        "name": "u1s1·就是好用包",
+        "price": 96.0,
+        "cycle": "年付",
+        "gb": 60,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "u1s1·普通人真够了包",
+        "price": 20.0,
+        "cycle": "月付",
+        "gb": 120,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "u1s1·你以为用不到包",
+        "price": 40.0,
+        "cycle": "月付",
+        "gb": 300,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "u1s1·瘾大就拉满包",
+        "price": 100.0,
+        "cycle": "月付",
+        "gb": 700,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "u1s1·我全都要包",
+        "price": 180.0,
+        "cycle": "月付",
+        "gb": 1500,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/u1s1/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "套餐与线路来自第三方公开资料，当前售价、设备限制和服务条款需在官网确认。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "站长提供，尚未结算验证"
+  },
+  {
+    "id": "jilian",
+    "name": "极连云",
+    "english": "JiLian",
+    "url": "https://kdjhao.jlyvipaff.com/#/?code=poyoU7mq",
+    "coupon": null,
+    "tag": "单位成本",
+    "summary": "18 元 100GB 起，可按更高档位核算流量单价。",
+    "advantage1": "500GB 档参考月付 61 元",
+    "advantage2": "资料列有 600GB 一次性包",
+    "audience": "愿意先核对品牌归属再小额体验的用户",
+    "line": "中转 / IPLC（资料有分歧）",
+    "plans": [
+      {
+        "name": "限时年付套餐体验",
+        "price": 96.0,
+        "cycle": "年付",
+        "gb": 60,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "极速云·基础套餐",
+        "price": 18.0,
+        "cycle": "月付",
+        "gb": 100,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "极速云·进阶套餐",
+        "price": 32.0,
+        "cycle": "月付",
+        "gb": 200,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "极速云·旗舰套餐",
+        "price": 61.0,
+        "cycle": "月付",
+        "gb": 500,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "极速云·尊享套餐",
+        "price": 122.0,
+        "cycle": "月付",
+        "gb": 1000,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "极速云·不限时套餐",
+        "price": 399.0,
+        "cycle": "一次性",
+        "gb": 600,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-09"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/jilian/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "来源套餐名称写“极速云”，与“极连云”的归属关系未确认；避免直接据此下单。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "未提供优惠码"
+  },
+  {
+    "id": "globalcloud",
+    "name": "全球云",
+    "english": "GlobalCloud",
+    "url": "https://sswdh.gcvipaff.com/#/?code=NE1AcNIX",
+    "coupon": "tt88",
+    "tag": "按量备用",
+    "summary": "常规月付加一次性流量包，适合不规律需求比较。",
+    "advantage1": "20 元 120GB 起的常规月付",
+    "advantage2": "100GB、400GB、800GB 按量包",
+    "audience": "希望同时比较周期付费和流量包的用户",
+    "line": "BGP（套餐名称口径）",
+    "plans": [
+      {
+        "name": "BGP 智能优化·不限时轻量包",
+        "price": 100.0,
+        "cycle": "一次性",
+        "gb": 100,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "BGP 智能优化·不限时标准包",
+        "price": 360.0,
+        "cycle": "一次性",
+        "gb": 400,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "BGP 智能优化·不限时大容量包",
+        "price": 700.0,
+        "cycle": "一次性",
+        "gb": 800,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "轻量版",
+        "price": 99.0,
+        "cycle": "年付",
+        "gb": 59,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "BGP 智能优化·入门方案",
+        "price": 20.0,
+        "cycle": "月付",
+        "gb": 120,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "BGP 智能优化·进阶方案",
+        "price": 40.0,
+        "cycle": "月付",
+        "gb": 300,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "BGP 智能优化·高端方案",
+        "price": 100.0,
+        "cycle": "月付",
+        "gb": 700,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "BGP 智能优化·商业方案",
+        "price": 180.0,
+        "cycle": "月付",
+        "gb": 1500,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/globalcloud/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "套餐与线路来自第三方公开资料，当前售价、设备限制和服务条款需在官网确认。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "站长提供，尚未结算验证"
+  },
+  {
+    "id": "guangnianti",
+    "name": "光年梯",
+    "english": "GuangNianTi",
+    "url": "https://ggmq.gntaff.com/#/?code=RAJFvngV",
+    "coupon": null,
+    "tag": "容量递增",
+    "summary": "110GB 至 900GB 月付，入门与进阶容量接近翻倍。",
+    "advantage1": "18 元 110GB 月付可先体验",
+    "advantage2": "50GB 年包可用于轻度预算比较",
+    "audience": "每月 100GB 至 450GB 的用户",
+    "line": "IEPL / IPLC（资料有分歧）",
+    "plans": [
+      {
+        "name": "年付限时套餐",
+        "price": 89.0,
+        "cycle": "年付",
+        "gb": 50,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "光年梯 入门版",
+        "price": 18.0,
+        "cycle": "月付",
+        "gb": 110,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "光年梯 晋级版",
+        "price": 34.0,
+        "cycle": "月付",
+        "gb": 220,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "光年梯 专业版",
+        "price": 68.0,
+        "cycle": "月付",
+        "gb": 450,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "光年梯 至尊版",
+        "price": 130.0,
+        "cycle": "月付",
+        "gb": 900,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/guangnianti/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "套餐与线路来自第三方公开资料，当前售价、设备限制和服务条款需在官网确认。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "未提供优惠码"
+  },
+  {
+    "id": "sogo",
+    "name": "Sogo云",
+    "english": "Sogo",
+    "url": "https://wzjc.sogoyunaff.cc/#/?code=2x2EywO9",
+    "coupon": null,
+    "tag": "小包与按量",
+    "summary": "60GB 月付小包和多个按量档适合低频使用比较。",
+    "advantage1": "15 元 60GB 月付减少首次支出",
+    "advantage2": "100GB 至 1000GB 单次包覆盖多种容量",
+    "audience": "低频使用、希望保留按量选择的用户",
+    "line": "IEPL / IPLC（资料有分歧）",
+    "plans": [
+      {
+        "name": "小包-月付版",
+        "price": 15.0,
+        "cycle": "月付",
+        "gb": 60,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "小包-年付版",
+        "price": 98.0,
+        "cycle": "年付",
+        "gb": 30,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "基础版",
+        "price": 25.0,
+        "cycle": "月付",
+        "gb": 120,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "优选版",
+        "price": 45.0,
+        "cycle": "月付",
+        "gb": 250,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "强化版",
+        "price": 80.0,
+        "cycle": "月付",
+        "gb": 500,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "顶配版",
+        "price": 150.0,
+        "cycle": "月付",
+        "gb": 1000,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "不限时买断 100G",
+        "price": 120.0,
+        "cycle": "一次性",
+        "gb": 100,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "不限时买断 250G",
+        "price": 220.0,
+        "cycle": "一次性",
+        "gb": 250,
+        "unlimitedTime": true,
+        "sourceDate": "2026-08-09"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/sogo/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "月包和年包在不同资料中有 60GB/120GB/150GB 与 30GB/60GB 分歧；先确认当前面板。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "未提供优惠码"
+  },
+  {
+    "id": "yuzhou",
+    "name": "宇宙云",
+    "english": "YuZhou",
+    "url": "https://wzjc.yuzoucloud.cc/#/?code=wL7YStBa",
+    "coupon": "YUZHOU553",
+    "tag": "轻量到重度",
+    "summary": "小额月包与 1TB 高档并存，适合分阶段比较。",
+    "advantage1": "资料列有 12.5 元 50GB 月包",
+    "advantage2": "120GB、240GB、500GB、1000GB 梯度",
+    "audience": "希望从小包开始观察实际用量的用户",
+    "line": "混合线路（资料口径）",
+    "plans": [
+      {
+        "name": "星云年付小包",
+        "price": 96.0,
+        "cycle": "年付",
+        "gb": 60,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "星云月付小包",
+        "price": 12.5,
+        "cycle": "月付",
+        "gb": 50,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "行星基础版",
+        "price": 25.0,
+        "cycle": "月付",
+        "gb": 120,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "恒星标准版",
+        "price": 50.0,
+        "cycle": "月付",
+        "gb": 240,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "星系专业版",
+        "price": 100.0,
+        "cycle": "月付",
+        "gb": 500,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "寰宇旗舰版",
+        "price": 200.0,
+        "cycle": "月付",
+        "gb": 1000,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/yuzhou/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "25 元档有 120GB/160GB 两种资料；12.5 元小包是否在售也需核对。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "站长提供，尚未结算验证"
+  },
+  {
+    "id": "2mao",
+    "name": "二猫云",
+    "english": "2mao",
+    "url": "https://waaa.2maoyunaff.cc/#/?code=uHeyKG44",
+    "coupon": null,
+    "tag": "小额月付",
+    "summary": "13 元 60GB 小包，适合先控制体验预算。",
+    "advantage1": "小包总支出较低",
+    "advantage2": "130GB 至 850GB 常规档可供升级",
+    "audience": "月用量不大、想先小额体验的用户",
+    "line": "线路类型待核验",
+    "plans": [
+      {
+        "name": "月付小包",
+        "price": 13.0,
+        "cycle": "月付",
+        "gb": 60,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "年付小包",
+        "price": 89.0,
+        "cycle": "年付",
+        "gb": 60,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "白猫套餐",
+        "price": 20.0,
+        "cycle": "月付",
+        "gb": 130,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "橘猫畅玩版",
+        "price": 40.0,
+        "cycle": "月付",
+        "gb": 230,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "牛奶猫尊享版",
+        "price": 80.0,
+        "cycle": "月付",
+        "gb": 430,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "黑猫重度用户版",
+        "price": 160.0,
+        "cycle": "月付",
+        "gb": 850,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/2mao/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "套餐与线路来自第三方公开资料，当前售价、设备限制和服务条款需在官网确认。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "未提供优惠码"
+  },
+  {
+    "id": "1fly",
+    "name": "一翻云",
+    "english": "1fly",
+    "url": "https://wzjc.1flyunaff.cc/#/?code=F7eaT191",
+    "coupon": null,
+    "tag": "中档性价比",
+    "summary": "150GB、350GB、600GB、1200GB，容量增长明显。",
+    "advantage1": "20 元 150GB 月付起步",
+    "advantage2": "35 元 350GB、55 元 600GB 可核算单价",
+    "audience": "每月数百 GB 且愿意按月验证体验的用户",
+    "line": "IEPL（资料口径）",
+    "plans": [
+      {
+        "name": "年付版",
+        "price": 98.0,
+        "cycle": "年付",
+        "gb": 60,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "轻享版",
+        "price": 20.0,
+        "cycle": "月付",
+        "gb": 150,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "舒享版",
+        "price": 35.0,
+        "cycle": "月付",
+        "gb": 350,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "尊享版",
+        "price": 55.0,
+        "cycle": "月付",
+        "gb": 600,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "极致版",
+        "price": 95.0,
+        "cycle": "月付",
+        "gb": 1200,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/1fly/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "套餐与线路来自第三方公开资料，当前售价、设备限制和服务条款需在官网确认。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "未提供优惠码"
+  },
+  {
+    "id": "edgenova",
+    "name": "边缘节点",
+    "english": "EdgeNova",
+    "url": "https://work.edgenovaaff.cc/#/?code=z81zCfw1",
+    "coupon": null,
+    "tag": "小包参考",
+    "summary": "限时小包与标准 120GB 档并列，先确认是否仍在售。",
+    "advantage1": "资料列有 15 元 72GB 限时月付",
+    "advantage2": "120GB 至 1000GB 常规档",
+    "audience": "关注低额体验且会先核对活动条件的用户",
+    "line": "直连 / IPLC（资料口径）",
+    "plans": [
+      {
+        "name": "限时月付",
+        "price": 15.0,
+        "cycle": "月付",
+        "gb": 72,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "限时年付",
+        "price": 108.0,
+        "cycle": "年付",
+        "gb": 45,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "极界·标准",
+        "price": 25.0,
+        "cycle": "月付",
+        "gb": 120,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "极界·进阶",
+        "price": 50.0,
+        "cycle": "月付",
+        "gb": 250,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "极界·高级",
+        "price": 100.0,
+        "cycle": "月付",
+        "gb": 500,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "极界·极限",
+        "price": 200.0,
+        "cycle": "月付",
+        "gb": 1000,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/edgenova/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "15 元限时档有 50GB/72GB 两种资料；本文保留当前来源的 72GB，未确认在售。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "未提供优惠码"
+  },
+  {
+    "id": "kosing",
+    "name": "可信云",
+    "english": "Kosing",
+    "url": "https://work.kosingaff.com/#/?code=BNsA58Es",
+    "coupon": null,
+    "tag": "资料需复核",
+    "summary": "公开资料列有 15 元月包，客户端限制存在分歧。",
+    "advantage1": "60GB 月付总支出较低",
+    "advantage2": "150GB 至 1200GB 常规档可核算成本",
+    "audience": "能先确认客户端、运营状态和退款条款的用户",
+    "line": "IEPL（第三方口径）",
+    "plans": [
+      {
+        "name": "年费小礼包",
+        "price": 96,
+        "cycle": "年付",
+        "gb": 60,
+        "unlimitedTime": false,
+        "sourceDate": "2026-09-27"
+      },
+      {
+        "name": "月付小包",
+        "price": 15,
+        "cycle": "月付",
+        "gb": 60,
+        "unlimitedTime": false,
+        "sourceDate": "2026-09-27"
+      },
+      {
+        "name": "基础版",
+        "price": 25,
+        "cycle": "月付",
+        "gb": 150,
+        "unlimitedTime": false,
+        "sourceDate": "2026-09-27"
+      },
+      {
+        "name": "标准版",
+        "price": 50,
+        "cycle": "月付",
+        "gb": 300,
+        "unlimitedTime": false,
+        "sourceDate": "2026-09-27"
+      },
+      {
+        "name": "专业版",
+        "price": 100,
+        "cycle": "月付",
+        "gb": 600,
+        "unlimitedTime": false,
+        "sourceDate": "2026-09-27"
+      },
+      {
+        "name": "旗舰版",
+        "price": 200,
+        "cycle": "月付",
+        "gb": 1200,
+        "unlimitedTime": false,
+        "sourceDate": "2026-09-27"
+      },
+      {
+        "name": "永久不限时",
+        "price": 50,
+        "cycle": "一次性",
+        "gb": 50,
+        "unlimitedTime": true,
+        "sourceDate": "2026-09-27"
+      }
+    ],
+    "source": "https://yp7.net/posts/jichang-heji/",
+    "sourceLabel": "yp7.net · 套餐合集",
+    "note": "不同来源对通用订阅支持及流量有冲突，且有历史节点异常转述；当前运营与恢复状态未确认。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "未提供优惠码"
+  },
+  {
+    "id": "sujie",
+    "name": "速界",
+    "english": "SuJie",
+    "url": "https://work.speedworldaff.cc/#/?code=wSjLCpIf",
+    "coupon": null,
+    "tag": "先核对小包",
+    "summary": "不同来源的小包价格和流量不一致，购买前应优先复核。",
+    "advantage1": "年付 50GB 与常规月付可供比较",
+    "advantage2": "250GB 至 1000GB 容量梯度明确",
+    "audience": "愿意先核对实际套餐再短期体验的用户",
+    "line": "IEPL / IPLC（资料有分歧）",
+    "plans": [
+      {
+        "name": "年付体验包",
+        "price": 90.0,
+        "cycle": "年付",
+        "gb": 50,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "极速版",
+        "price": 25.0,
+        "cycle": "月付",
+        "gb": 120,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "超速版",
+        "price": 50.0,
+        "cycle": "月付",
+        "gb": 250,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "光速版",
+        "price": 100.0,
+        "cycle": "月付",
+        "gb": 500,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "跃迁版",
+        "price": 200.0,
+        "cycle": "月付",
+        "gb": 1000,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/sujie/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "15 元/50GB 与 25 元/120GB、150GB 等资料不一致；当前最低月付尚未独立确认。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "未提供优惠码"
+  },
+  {
+    "id": "kuaili",
+    "name": "快狸",
+    "english": "KuaiLi",
+    "url": "https://work.kuailicloud.cc/#/?code=gVGJa0Mp",
+    "coupon": null,
+    "tag": "中等容量",
+    "summary": "250GB 标准档可作为中等用量比较对象。",
+    "advantage1": "15 元 50GB 月付可先体验",
+    "advantage2": "35 元 250GB 单位成本低于本品牌更大档",
+    "audience": "每月 100GB 至 250GB、倾向按月付费的用户",
+    "line": "线路类型待核验",
+    "plans": [
+      {
+        "name": "年付小套餐",
+        "price": 120.0,
+        "cycle": "年付",
+        "gb": 30,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "月付小套餐",
+        "price": 15.0,
+        "cycle": "月付",
+        "gb": 50,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "小狸基础版",
+        "price": 22.0,
+        "cycle": "月付",
+        "gb": 100,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "灵狸标准版",
+        "price": 35.0,
+        "cycle": "月付",
+        "gb": 250,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "夜狸强化版",
+        "price": 95.0,
+        "cycle": "月付",
+        "gb": 500,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      },
+      {
+        "name": "天狸顶配版",
+        "price": 180.0,
+        "cycle": "月付",
+        "gb": 1000,
+        "unlimitedTime": false,
+        "sourceDate": "2026-08-09"
+      }
+    ],
+    "source": "https://jichangtan.com/airports/kuaili/",
+    "sourceLabel": "机场探 · 品牌资料",
+    "note": "套餐与线路来自第三方公开资料，当前售价、设备限制和服务条款需在官网确认。",
+    "checkedAt": "2026-10-03",
+    "evidence": "第三方参考",
+    "couponStatus": "未提供优惠码"
+  }
+]
