@@ -1,4 +1,4 @@
-# 航线笔记 · jichangblog.org
+# 云途集 · jichangblog.org
 
 中文机场推荐博客，正式域名为 https://jichangblog.org，GitHub 仓库为 https://github.com/ksugiono187/jichangblog.org。
 
@@ -23,7 +23,9 @@
 
 执行 `npm run build` 生成正式站点到 `dist/`，执行 `npm run check` 检查元数据、标题、结构化数据、引用、锚点和全站内链。
 
-推送到 main 后，`.github/workflows/pages.yml` 会构建、检查并部署 GitHub Pages。工作流固定使用 https://jichangblog.org，根路径为空；源目录与 dist 均保留 CNAME 文件。
+当前采用 Cloudflare Pages 托管，连接本仓库后选择框架预设 `None`、生产分支 `main`、构建命令 `npm run build`、输出目录 `dist`，根目录留空；环境变量 `NODE_VERSION` 设为 `22`。在 Pages 项目的自定义域中关联 `jichangblog.org`。
+
+仓库同时保留 GitHub Pages 工作流：推送到 main 后，`.github/workflows/pages.yml` 会构建、检查并部署 GitHub Pages。工作流固定使用 https://jichangblog.org，根路径为空；源目录与 dist 均保留 CNAME 文件。
 
 使用自定义 GitHub Actions 部署时，CNAME 文件不能代替 GitHub Settings → Pages 中的 Custom domain 配置。仓库 Pages 需要选择 GitHub Actions，并将 Custom domain 设为 jichangblog.org。证书可用后启用 Enforce HTTPS。
 
