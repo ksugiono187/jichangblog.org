@@ -62,11 +62,12 @@ const functionDescriptions={
 };
 const titles={'checkout-checklist':'机场套餐下单前要核对的七项信息 - 云途集','time-vs-unlimited':'不限时机场套餐与不限流量是一回事吗？ - 云途集','coupon-validation':'机场优惠码怎么验证？核对原价与实付变化 - 云途集'};
 export function editorialMetadata(file,title,description,{brand,article,topic,brands=[]}={}){
+ if(brand?.planAttribution==='disputed')return {title:brand.name+'资料与套餐归属核对｜云途集',description:brand.name+'入口与参考套餐的对应关系尚待核实。查看公开证据、原始引用、名称疑点、历史测速及优惠码说明；暂不比较起价、容量与单位成本，官网现价及实际表现尚未确认。'};
  if(brand){title=brand.name+'套餐怎么样？价格、流量与优惠码｜云途集';description=brand.name+'套餐资料：'+brand.summary+'查看参考价格、流量、付款周期与选购依据，核对优惠码和原始来源；官网现价与实际表现尚未独立确认。';}
  else if(article){
   if(article.kind==='guide'){if(!guideDescriptions[article.id])throw Error('Missing description: '+article.id);description=guideDescriptions[article.id];title=titles[article.id]||title;}
   else if(article.kind==='comparison'){const names=article.brandIds.map(id=>brands.find(b=>b.id===id).name);description=names.join('与')+'套餐对比：以每月 '+article.flow+'GB 为需求，比较匹配月包、首次费用及每 GB 成本。'+article.excerpt+'报价为第三方参考，需核对当前购买页。';}
-  else{const b=brands.find(b=>b.id===article.brandIds[0]);description=b.name+'档位解析：'+article.excerpt+'结合完整参考套餐表，比较付款周期、标称与实际用量成本，保留来源分歧及购买前核对条件。';}
+  else{const b=brands.find(b=>b.id===article.brandIds[0]);description=b.planAttribution==='disputed'?b.name+'公开资料核对：'+article.excerpt+'保留名称疑点、原始引用与历史测速边界，说明需要哪些证据才能恢复价格比较；当前套餐及使用表现尚未确认。':b.name+'档位解析：'+article.excerpt+'结合完整参考套餐表，比较付款周期、标称与实际用量成本，保留来源分歧及购买前核对条件。';}
  }
  else if(topic){description=topic.name+'专题：'+topic.intro+'从'+topic.steps.slice(0,2).join('、')+'入手，结合选购文章与品牌资料核对套餐。';}
  else description=functionDescriptions[file]||description;

@@ -47,3 +47,5 @@ await import('./check-official-review.mjs');
 await import('./check-speed-research.mjs');
 
 await import('./check-brand-tools.mjs');
+
+await import('./check-priority-review.mjs');
