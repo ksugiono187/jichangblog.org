@@ -37,3 +37,5 @@ for(let i=0;i<brands.length;i++){
 console.log('PASS: 11 homepage copy actions; all 28 brands have previous/next links and complete directories.');
 
 await import('./check-reader.mjs');
+
+await import('./check-metadata.mjs');

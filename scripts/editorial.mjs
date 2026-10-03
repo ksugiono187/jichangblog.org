@@ -4,7 +4,7 @@ import {extraTopics,extraGuides,extraComparisons,brandAnalyses,brandAnalysisSect
 const topics=[...originalTopics,...extraTopics];
 import {examples} from '../data/examples.mjs';
 for(const guide of guides){if(!examples[guide.id])throw Error('Missing editorial example '+guide.id);guide.sections.push({heading:'一个具体判断例子',paragraphs:[examples[guide.id]]});}
-enrichGuides(guides);
+enrichGuides([...guides,...extraGuides]);
 export const articles=[...guides,...comparisons,...extraGuides,...extraComparisons,...brandAnalyses];
 const articleKind=a=>a.kind==='comparison'?'套餐分析':a.kind==='brand'?'品牌档位解析':'选购指南';
 export {topics};
