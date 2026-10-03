@@ -5,3 +5,5 @@ work/
 *.log
 
 .preview/
+
+indexnow-result.json

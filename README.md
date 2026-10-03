@@ -9,7 +9,17 @@
 - 原有 28 个品牌详情页和 11 个原始优惠码保留。
 - 文章库支持搜索、专题筛选和每页 12 篇的分页。不开启 JavaScript 时仍可看到完整文章目录与静态正文。
 - 手机底部导航、展开式目录和表格容器内横向滚动；每个专题至少 3 篇文章。
-- 全站共 182 个 HTML 页面，其中 181 个内容地址进入 sitemap，排除 404。全部内容页可从首页两次链接内到达。
+- 全站共 183 个 HTML 页面，其中 182 个内容地址进入 sitemap，排除 404。全部内容页可从首页两次链接内到达。
+
+## 选购工具与更新提交
+
+`/select/` 按单次支付预算、流量、付款周期、倍率与预留比例筛选。每个品牌显示符合条件且单次支付最低的档位，计算在浏览器中完成，年付和一次性包分别计算。未知容量与未验证优惠不参与计算。
+
+首页和相关专题保留“机场推荐”，文章标题、H1 与结构化 headline 直接描述具体问题；功能页使用符合用途的标题。
+
+`site.config.json` 中的 indexNowKey 用于公开 URL 更新验证，并非 GitHub 或账户凭据。生产构建在站点根目录生成协议要求的验证文本文件，本地预览不生成。IndexNow 工作流等正式域名的 build-manifest.revision 与本次提交一致后，再提交此次 Git 更新中变化的内容地址。接收结果保存在工作流附件中；200 为已接收，202 为待验证，不代表收录或排名。没有变化时跳过，不重复提交成功请求。
+
+初次或人工核对可以执行 `node scripts/indexnow.mjs --all --dry-run`；实际全量提交使用 `--all`，应先查看自动工作流是否已经提交。Bing Webmaster Tools 的账号验证和搜索表现报告需要站长自己的账户，IndexNow 不代替该验证。
 
 ## 商务联系
 
@@ -57,7 +67,7 @@
 
 ## Bing 抓取基础
 
-标题自然包含“机场推荐”，首页 H1 为“机场推荐，从你的需求出发”。静态正文、独立描述、canonical、Article 与 BreadcrumbList、robots 和 sitemap 已生成。正式 sitemap 为 https://jichangblog.org/sitemap.xml。
+首页和相关专题标题自然包含“机场推荐”，首页 H1 为“机场推荐，从你的需求出发”。静态正文、独立描述、canonical、Article 与 BreadcrumbList、robots 和 sitemap 已生成。正式 sitemap 为 https://jichangblog.org/sitemap.xml。
 
 上线后在 Bing Webmaster Tools 验证站点并提交上述公开 sitemap，查看处理和 URL 检查结果。本地 localhost 地址不能提交。未伪造 Bing 验证密钥、收录或排名；关键词和 sitemap 不保证收录或排名靠前。
 
