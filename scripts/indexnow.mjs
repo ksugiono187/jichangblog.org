@@ -3,6 +3,7 @@ import path from 'node:path';
 import {execFileSync} from 'node:child_process';
 const root=path.resolve(import.meta.dirname,'..');
 const config=JSON.parse(fs.readFileSync(path.join(root,'site.config.json'),'utf8'));
+if(config.indexNowEnabled===false&&!process.argv.includes('--dry-run')){console.log('IndexNow notifications are paused pending the site owner’s review. No URLs were submitted.');process.exit(0);}
 const origin=config.url,base=config.basePath||'',key=config.indexNowKey;
 if(!/^https:\/\/[a-zA-Z0-9.-]+$/.test(origin)||!/^[a-zA-Z0-9-]{8,128}$/.test(key||''))throw Error('Production origin and IndexNow key required');
 const canonicalFile=file=>origin+base+'/'+(file==='dist/index.html'?'':file.slice(5).replace(/index.html$/,''));

@@ -86,3 +86,7 @@
 - data/enrichment.mjs 为三篇重点指南生成有依据的预算比较、有效流量成本与优惠核验模板。node scripts/audit-content.mjs 检查文章正文的共用段落与相似度，仅作编辑审阅线索。
 - 用户提供的 Bing 验证标签写入 site.config.json 的 bingVerification，仅首页输出；上线后在 Bing 站长工具点击验证，并提交 https://jichangblog.org/sitemap.xml。
 - 186 个 HTML 页面，183 个可索引 Sitemap URL；404、搜索与个人阅读记录页不进入 Sitemap。
+
+## 暂停提交（站长要求）
+
+当前 indexNowEnabled 为 false，构建和发布仍正常，但 IndexNow 脚本在任何网络提交前直接退出。待整站优化及站长审阅完成后，再按明确要求恢复；不自动恢复。Sitemap 文件仍保留供检查，未代替站长在 Bing 后台手动提交。
