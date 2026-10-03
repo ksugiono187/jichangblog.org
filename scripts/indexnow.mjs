@@ -9,7 +9,7 @@ const canonicalFile=file=>origin+base+'/'+(file==='dist/index.html'?'':file.slic
 let urls=[];
 if(process.argv.includes('--changed')){
  const files=execFileSync('git',['diff','--name-only','HEAD^','HEAD','--','dist'],{cwd:root,encoding:'utf8'}).trim().split(/\r?\n/);
- urls=files.filter(p=>p.startsWith('dist/')&&p.endsWith('.html')&&p!=='dist/404.html').map(canonicalFile);
+ urls=files.filter(p=>p.startsWith('dist/')&&p.endsWith('.html')&&!['dist/404.html','dist/search/index.html','dist/library/index.html'].includes(p)).map(canonicalFile);
 }else if(process.argv.includes('--all')){
  urls=[...fs.readFileSync(path.join(root,'dist/sitemap.xml'),'utf8').matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>m[1]);
 }else throw Error('Use --changed after a Git push, or --all for an initial/manual submission');

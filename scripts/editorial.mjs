@@ -1,8 +1,10 @@
+import {enrichGuides} from '../data/enrichment.mjs';
 import {topics as originalTopics,guides,comparisons} from '../data/editorial.mjs';
 import {extraTopics,extraGuides,extraComparisons,brandAnalyses,brandAnalysisSections} from '../data/expansion.mjs';
 const topics=[...originalTopics,...extraTopics];
 import {examples} from '../data/examples.mjs';
 for(const guide of guides){if(!examples[guide.id])throw Error('Missing editorial example '+guide.id);guide.sections.push({heading:'一个具体判断例子',paragraphs:[examples[guide.id]]});}
+enrichGuides(guides);
 export const articles=[...guides,...comparisons,...extraGuides,...extraComparisons,...brandAnalyses];
 const articleKind=a=>a.kind==='comparison'?'套餐分析':a.kind==='brand'?'品牌档位解析':'选购指南';
 export {topics};
@@ -41,5 +43,5 @@ export function renderEditorial(page,brands){
  page(`blog/${a.id}/index.html`,`${fullTitle(a)} - 云途集`,a.excerpt,body,{depth:2,type:'Article',extra:{headline:fullTitle(a),datePublished:a.date,dateModified:a.date,articleSection:t.name,author:{'@type':'Organization',name:'云途集编辑部'},publisher:{'@type':'Organization',name:'云途集'}}});
  }
  const group=(title,list)=>`<section class="map-group"><h2>${title}</h2><ul>${list.map(([label,p])=>`<li><a href="../${p}">${E(label)}</a></li>`).join('')}</ul></section>`;
- page('sitemap/index.html','机场推荐网站地图｜全部品牌、专题与博客文章 - 云途集',`云途集网站地图：浏览28个机场品牌、${topics.length}个选购专题、${articles.length}篇博客文章以及套餐对比和优惠码页面。`,`<div class="shell">${heading('THE SITE MAP','机场推荐网站地图','从这里找到全部品牌、专题和文章。')}<p>搜索引擎使用的 <a href="../sitemap.xml">XML sitemap</a> 会在构建时自动更新。</p>${group('常用入口',[['机场推荐首页',''],['套餐对比','compare/'],['选购工具','select/'],['优惠码','coupons/'],['选购指南','guide/'],['资料与方法','about/'],['联系我们','contact/'],['博客文章','blog/'],['专题目录','topics/']])}${group(`${topics.length} 个专题`,topics.map(t=>[t.name,`topics/${t.id}/`]))}${group('28 个品牌',brands.map(b=>[b.name,`brands/${b.id}/`]))}${group(`${articles.length} 篇博客文章`,articles.map(a=>[a.title,`blog/${a.id}/`]))}</div>`,{depth:1});
+ page('sitemap/index.html','机场推荐网站地图｜全部品牌、专题与博客文章 - 云途集',`云途集网站地图：浏览28个机场品牌、${topics.length}个选购专题、${articles.length}篇博客文章以及套餐对比和优惠码页面。`,`<div class="shell">${heading('THE SITE MAP','机场推荐网站地图','从这里找到全部品牌、专题和文章。')}<p>搜索引擎使用的 <a href="../sitemap.xml">XML sitemap</a> 会在构建时自动更新。</p>${group('常用入口',[['机场推荐首页',''],['套餐对比','compare/'],['选购工具','select/'],['优惠码','coupons/'],['选购指南','guide/'],['资料与方法','about/'],['联系我们','contact/'],['全站搜索','search/'],['收藏与最近浏览','library/'],['资料核验与更新','updates/'],['博客文章','blog/'],['专题目录','topics/']])}${group(`${topics.length} 个专题`,topics.map(t=>[t.name,`topics/${t.id}/`]))}${group('28 个品牌',brands.map(b=>[b.name,`brands/${b.id}/`]))}${group(`${articles.length} 篇博客文章`,articles.map(a=>[a.title,`blog/${a.id}/`]))}</div>`,{depth:1});
 }

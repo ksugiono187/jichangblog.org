@@ -76,3 +76,13 @@
 ## 视觉资产
 
 背景为此前生成的原创午夜深蓝与钴蓝极光图，已压缩为 WebP。使用本地字体，无第三方字体请求。
+
+## 读者功能与核验记录
+
+- 首页与品牌页可收藏、勾选 2～4 家；compare/ 支持并排卡片与可分享的 brands 参数，原有完整静态套餐表保留。
+- search/ 搜索 28 家品牌、120 篇文章、24 个专题；library/ 仅使用当前浏览器的本地记录，最近浏览最多 12 条。
+- search/ 与 library/ 采用 noindex，且不列入 Sitemap / IndexNow；updates/ 提供公开资料状态与实际功能更新记录。
+- assets/explorer.js 管理互动与本地保存，assets/catalog.json 由构建生成；无需账号，不上传收藏和浏览记录。
+- data/enrichment.mjs 为三篇重点指南生成有依据的预算比较、有效流量成本与优惠核验模板。node scripts/audit-content.mjs 检查文章正文的共用段落与相似度，仅作编辑审阅线索。
+- 用户提供的 Bing 验证标签写入 site.config.json 的 bingVerification，仅首页输出；上线后在 Bing 站长工具点击验证，并提交 https://jichangblog.org/sitemap.xml。
+- 186 个 HTML 页面，183 个可索引 Sitemap URL；404、搜索与个人阅读记录页不进入 Sitemap。

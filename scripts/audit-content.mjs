@@ -1,0 +1,11 @@
+import fs from 'node:fs';
+import {articles} from './editorial.mjs';
+const dist=new URL('../dist/',import.meta.url);
+const strip=s=>s.replace(/<[^>]+>/g,'').replace(/&(?:amp|lt|gt|quot|#39);/g,' ').replace(/\s+/g,' ').trim();
+const records=articles.map(a=>{const html=fs.readFileSync(new URL('blog/'+a.id+'/index.html',dist),'utf8'),body=html.match(/<article class="article-prose">([\s\S]*?)<\/article>/)?.[1]||'';const paragraphs=[...body.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/g)].map(m=>strip(m[1])).filter(p=>p.length>=40);return {id:a.id,title:a.title,kind:a.kind,paragraphs,length:strip(body).length};});
+const repeated=new Map();for(const a of records)for(const p of new Set(a.paragraphs)){const ids=repeated.get(p)||[];ids.push(a.id);repeated.set(p,ids);}
+const shared=[...repeated].filter(([,ids])=>ids.length>=5).map(([text,ids])=>({text,articleCount:ids.length,ids})).sort((a,b)=>b.articleCount-a.articleCount);
+const core=records.map(a=>{const text=a.paragraphs.filter(p=>(repeated.get(p)?.length||0)<5).join('');const grams=new Set();for(let i=0;i<text.length-4;i++)grams.add(text.slice(i,i+5));return {...a,grams};});
+const review=[];for(let i=0;i<core.length;i++)for(let j=i+1;j<core.length;j++){const a=core[i],b=core[j];if(!a.grams.size||!b.grams.size)continue;let intersection=0;for(const g of a.grams)if(b.grams.has(g))intersection++;const similarity=intersection/(a.grams.size+b.grams.size-intersection);if(similarity>=.72)review.push({ids:[a.id,b.id],similarity:Number(similarity.toFixed(3))});}
+const result={auditedAt:new Date().toISOString(),articles:records.length,method:'Rendered article paragraphs; shared paragraphs appearing in >=5 articles are excluded from five-character similarity. Heuristic review signal, not Bing ranking data.',shortArticles:records.filter(a=>a.length<500).map(({id,length})=>({id,length})),sharedParagraphs:shared,similarPairs:review,improvedGuides:['first-purchase','cost-per-gb','coupon-validation'],recommendation:'保留不同购买问题和独立计算依据。共有披露、说明或模板段落不自动认定为重复页面；高相似度结果应人工检查，不自动删页或重定向。'};
+fs.writeFileSync(new URL('../content-audit.json',import.meta.url),JSON.stringify(result,null,2));console.log(JSON.stringify({articles:result.articles,shortArticles:result.shortArticles.length,sharedParagraphs:shared.length,similarPairs:review.length,improvedGuides:result.improvedGuides}));
